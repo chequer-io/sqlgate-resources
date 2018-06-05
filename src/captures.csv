@@ -1,0 +1,290 @@
+category,folder,name-ko,desc-ko,name-en,desc-en
+시작/인증,start,empty-oracle-ko,"인증전, 로그인전, 빈화면, 오라클, 메인화면",empty-oracle-en,sqlgate main
+시작/인증,start,need-login-oracle-ko,"로그인필요, 오라클",need-login-oracle-en,sqlgate require login
+시작/인증,start,need-login-oracle-offline-activate-ko,"로그인필요, 오프라인 활성화, 오라클",need-login-oracle-offline-activate-en,sqlgate offline activation
+시작/인증,start,login-ko,"사용자인증, 로그인, 오라클",login-en,sqlgate login
+시작/인증,start,offline-activate-ko,"오프라인 활성화, 오라클, 오프라인 활성화 코드를 입력하세요.",offline-activate-en,sqlgate offline activation
+시작/인증,start,input-licensekey-ko,"SQLGate 정품 인증, 제품키, 오라클",input-licensekey-en,input license key
+시작/인증,start,new-connection-ko,"새 접속, 오라클",new-connection-en,new connection
+시작/인증,start,new-connection-oci-ko,"새 접속, OCI, 오라클",new-connection-oci-en,new connection oci
+시작/인증,start,new-connection-en-mysql,"데이터베이스 접속, 새접속, MySQL",new-connection-en-mysql,new connection mysql
+시작/인증,start,new-connection-en-postgre,"데이터베이스 접속, 새접속, postgreSQL, pgsql",new-connection-en-mysql,new connection postgreSQL
+시작/인증,start,choice-plan-ko,"구독 플랜 선택, choice your plan, 오라클",choice-plan-en,choose your plan
+쿼리만들기,query-editor,query-editor-empty-ko,"빈쿼리에디터, empty query editor, 기본에디터, default editor, SQL Editor, SQL 에디터, 오라클",query-editor-empty-en,SQL query editor
+쿼리만들기,query-editor,query-builder-menu-ko,쿼리작성기 메뉴,query-builder-menu-en,SQL query builder
+쿼리만들기,query-editor,query-builder-add-condition-ko,"쿼리작성기 조건 추가, query builder add condition, Criteria, 기준",query-builder-add-condition-en,SQL query builder add condition
+쿼리만들기,query-editor,query-builder-result-ko,"쿼리작성기 실행 결과, query builder run result, 오라클",query-builder-result-en,SQL query builder excute result
+쿼리만들기,query-editor,query-builder-SQL-ko,"쿼리작성기 SQL, query builder SQL, 오라클",query-builder-SQL-en,SQL query builder
+데이터수정,edit-data,run-and-modify-current-SQL-ko,"현재 SQL 실행 및 수정, run and modify current SQL, 오라클",run-and-modify-current-SQL-en,run and modify current SQL
+데이터수정,edit-data,edit-data-on-table-detail-window-ko,테이블설명창에서 데이터 수정,edit-data-on-table-detail-window-en,"Edit data on table explanation window, On the Table Explanation window, click the Data tab."
+마법사,wizard,create-table-wizard-01-ko,새테이블 만들기 마법사 메뉴,create-table-wizard-01-en,create table wizard menu
+마법사,wizard,create-table-wizard-02-ko,새테이블 만들기 컬럼정보 입력 양식,create-table-wizard-02-en,create table wizard column form
+마법사,wizard,data-export-wizard-01-ko,데이터 내보내기 마법사 툴바에서 시작,data-export-wizard-01-en,export data in toolbar
+마법사,wizard,data-export-wizard-02-ko,데이터 내보내기 바법사 개체탐색기에서 시작,data-export-wizard-02-en,export data in order panel
+마법사,wizard,data-export-wizard-03-ko,데이터 내보내기할 개체 선택하기 창,data-export-wizard-03-en,choose object window to export data
+마법사,wizard,data-import-wizard-column-mapping-ko,데이터 가져오기 마법사 열 매핑,data-import-wizard-column-mapping-en,import data wizard column mapping
+마법사,wizard,data-import-wizard-file-additional-option-ko,데이터 가져오기 마법사 추가 옵션 설정,data-import-wizard-file-additional-option-en,import data wizard file additional option
+마법사,wizard,data-import-wizard-file-option-ko,데이터 가져오기 마법사 옵션 설정,data-import-wizard-file-option-en,import data wizard fiile option
+마법사,wizard,data-import-wizard-file-preview-ko,데이터 가져오기 마법사 파일 미리보기,data-import-wizard-file-preview-en,import data wizard file preview
+마법사,wizard,data-import-wizard-run-summary-ko,데이터 가져오기 마법사 실행 요약,data-import-wizard-run-summary-en,import data wizard run summary
+SQL편집기,SQLEditor,add-record-at-query-result-ko,쿼리를 실행하고 결과 편집에서 데이터 추가,add-record-at-query-result-en,"run SQL and add record, add record at query result"
+SQL편집기,SQLEditor,bind-substitution-variables-active-ko,대체 변수 사용 활성화,bind-substitution-variables-active-en,active bind substitution variables
+SQL편집기,SQLEditor,bind-substitution-variables-run-sql-ko,대체 변수이용한 SQL 실행,bind-substitution-variables-run-sql-en,bind substitution variables run sql
+SQL편집기,SQLEditor,bind-variables-active-ko,바인드 변수 사용 활성화,bind-variables-active-en,active bind variables function
+SQL편집기,SQLEditor,bind-variables-run-sql-ko,바인드 변수이용한 SQL 실행,bind-variables-run-sql-en,bind variables run sql
+SQL편집기,SQLEditor,bind-variables-run-sql-result-ko,바인드 변수이용한 SQL 실행 결과,bind-variables-run-sql-result-en,bind variables run sql result
+SQL편집기,SQLEditor,delete-record-at-query-result-ko,쿼리를 실행하고 결과 편집에서 데이터 삭제,delete-record-at-query-result-en,delete record query result
+SQL편집기,SQLEditor,run-and-modify-current-SQL-ko,쿼리를 실행하고 바로 편집하기,run-and-modify-current-SQL-en,run and modify current SQL
+SQL편집기,SQLEditor,run-multi-query-ko,여러개의 쿼리 동시에 실행하기,run-multi-query-en,run multi query
+SQL편집기,SQLEditor,run-selected-query-ko,여러개의 쿼리에서 한개,run-selected-query-en,run selected query
+SQL편집기,SQLEditor,run-single-query-ko,SQL 한개의 쿼리 실행하기,run-single-query-en,run single query
+SQL편집기,SQLEditor,run-sub-query-ko,하위 쿼리 블록 실행하기,run-sub-query-en,run sub query
+SQL편집기,SQLEditor,selection-sql-replace-ko,선택영역에서 문자열 일괄 변환하기,selection-sql-replace-en,selection sql replace
+SQL편집기,SQLEditor,work-sql-history-ko,"아이콘, SQL 기록으로 작업하기",work-sql-history-en,work sql history
+SQL편집기,SQLEditor,icon-sql-history-add-to-editor,"아이콘, SQL 기록 편집기에 추가",icon-sql-history-add-to-editor,icon sql history add to editor
+SQL편집기,SQLEditor,icon-sql-history-add-to-new-tab,"아이콘, SQL 기록 새탭에 붙여넣기",icon-sql-history-add-to-new-tab,icon sql history add to new tab
+SQL편집기,SQLEditor,icon-sql-history-collapse,"아이콘, SQL 기록 그룹축소",icon-sql-history-collapse,icon sql history collapse
+SQL편집기,SQLEditor,icon-sql-history-copy-to-clipboard,"아이콘, SQL 기록 클립보드로 복사",icon-sql-history-copy-to-clipboard,icon sql history copy to clipboard
+SQL편집기,SQLEditor,icon-sql-history-delete-all-in-group,"아이콘, SQL 기록 현재 그룹의 SQL모두 삭제",icon-sql-history-delete-all-in-group,icon sql history delete all in group
+SQL편집기,SQLEditor,icon-sql-history-delete-group,"아이콘, SQL 기록 그룹 삭제",icon-sql-history-delete-group,icon sql history delete group
+SQL편집기,SQLEditor,icon-sql-history-delete-sql,"아이콘, SQL 기록 SQL 삭제",icon-sql-history-delete-sql,icon sql history delete sql
+SQL편집기,SQLEditor,icon-sql-history-expand-group,"아이콘, SQL 기록 그룹확장",icon-sql-history-expand-group,icon sql history expand group
+SQL편집기,SQLEditor,icon-sql-history-find,"아이콘, SQL 기록 찾기",icon-sql-history-find,icon sql history find
+SQL편집기,SQLEditor,icon-sql-history-modify-group,"아이콘, SQL 기록 그룹 수정",icon-sql-history-modify-group,icon sql history modify group
+SQL편집기,SQLEditor,icon-sql-history-modify-sql,"아이콘, SQL 기록 SQL 수정",icon-sql-history-modify-sql,icon sql history modify sql
+SQL편집기,SQLEditor,icon-sql-history-move-group,"아이콘, SQL 기록 그룹 이동",icon-sql-history-move-group,icon sql history move group
+SQL편집기,SQLEditor,icon-sql-history-new-group,"아이콘, SQL 기록 새 그룹",icon-sql-history-new-group,icon sql history new group
+SQL편집기,SQLEditor,icon-sql-history-new-sql,"아이콘, SQL 기록 SQL 추가",icon-sql-history-new-sql,icon sql history new sql
+SQL편집기,SQLEditor,icon-sql-history-open-file,"아이콘, SQL 기록 파일 열기",icon-sql-history-open-file,icon sql history open file
+SQL편집기,SQLEditor,icon-sql-history-replace-in-editor,"아이콘, SQL 기록 편집기에서 바꾸기",icon-sql-history-replace-in-editor,icon sql history replace in editor
+SQL편집기,SQLEditor,icon-sql-history-save-to-file,"아이콘, SQL 기록 파일로 저장",icon-sql-history-save-to-file,icon sql history save to file
+SQL편집기세부기능,SQLEditorAdvanced,use-table-autocomplete-ko,SQL 에디터에서 테이블 자동완성,use-table-autocomplete-en,Use Table AutoComplete
+SQL편집기세부기능,SQLEditorAdvanced,use-table-autocomplete-choice-object-ko,SQL 에디터에서 테이블 자동완성 목록 특정 오브젝트 선택,use-table-autocomplete-choice-object-en,Use Table AutoComplete choose object
+SQL편집기세부기능,SQLEditorAdvanced,use-field-autocomplete-ko,SQL 에디터에서 컬럼 자동완성,use-field-autocomplete-en,Use Field AutoComplete
+SQL편집기세부기능,SQLEditorAdvanced,use-code-template-autocomplete-ko,SQL 에디터에서 코드 템플릿 자동완성,use-code-template-autocomplete-en,Use Code AutoComplete
+SQL편집기세부기능,SQLEditorAdvanced,use-code-template-autocomplete-result-ko,SQL 에디터에서 코드 템플릿 자동완성 실행 결과,use-code-template-autocomplete-result-en,Use Code AutoComplete result
+SQL편집기세부기능,SQLEditorAdvanced,use-code-template-customize-ko,SQL 에디터에서 코드 템플릿 사용자화 하기,use-code-template-customize-en,Use Code AutoComplete customize
+SQL편집기세부기능,SQLEditorAdvanced,align-query-statements-01-ko,SQL맞춤 ,align-query-statements-01-en,Align Query Statements
+SQL편집기세부기능,SQLEditorAdvanced,align-query-statements-02-ko,SQL맞춤 결과,align-query-statements-02-en,Align Query Statements
+SQL편집기세부기능,SQLEditorAdvanced,align-query-statements-03-ko,SQL맞춤 옵션,align-query-statements-03-en,Align Query Statements
+SQL편집기세부기능,SQLEditorAdvanced,change-query-result-view-01-ko,쿼리 결과 창을 가로/세로 전환하기 가로보기,change-query-result-view-01-en,Change Query Result Window View Horizontally/Vertically
+SQL편집기세부기능,SQLEditorAdvanced,change-query-result-view-02-ko,쿼리 결과 창을 가로/세로 전환하기 세로보기,change-query-result-view-02-en,Change Query Result Window View Horizontally/Vertically
+SQL편집기세부기능,SQLEditorAdvanced,change-query-result-view-03-ko,여러개의 쿼리 결과 창을 가로/세로 전환하기 위에서 부터,change-query-result-view-03-en,Change Query Result Window View Horizontally/Vertically
+SQL편집기세부기능,SQLEditorAdvanced,change-query-result-view-04-ko,여러개의 쿼리 결과 창을 가로/세로 전환하기 좌에서 부터,change-query-result-view-04-en,Change Query Result Window View Horizontally/Vertically
+SQL편집기세부기능,SQLEditorAdvanced,display-two-SQL-editor-01-ko,SQL편집기 창을 두개로 보기 좌우로 분할,display-two-SQL-editor-01-en,Display Two SQL Editor Windows
+SQL편집기세부기능,SQLEditorAdvanced,display-two-SQL-editor-02-ko,SQL편집기 창을 두개로 보기 위아래로 분할,display-two-SQL-editor-02-en,Display Two SQL Editor Windows
+SQL편집기세부기능,SQLEditorAdvanced,add-tab-editor-ko,편집기 창 탭 추가하여 SQL 실행하기,add-tab-editor-en,Add an Editor Tab and Run SQL
+SQL편집기세부기능,SQLEditorAdvanced,add-tab-editor-option-ko,편집기 창의 탭 여러 개 추가하기,add-tab-editor-option-en,Add Multiple Tabs on Editor Window
+SQL편집기세부기능,SQLEditorAdvanced,bookmark-shortcut-01-ko,책갈피로 바로 가기,bookmark-shortcut-01-en,Bookmark Shortcut
+SQL편집기세부기능,SQLEditorAdvanced,bookmark-shortcut-02-ko,책갈피로 바로 가기,bookmark-shortcut-02-en,Bookmark Shortcut
+SQL편집기세부기능,SQLEditorAdvanced,close-all-tab-ko,현재 창 이외에 모두 닫기,close-all-tab-en,Close All But This
+SQL편집기세부기능,SQLEditorAdvanced,comment-block-01-ko,SQL 구문 주석 한 번에 추가하기,comment-block-01-en,Add SQL Comment At Once
+SQL편집기세부기능,SQLEditorAdvanced,comment-block-02-ko,SQL 구문 주석 한 번에 추가하기,comment-block-02-en,Add SQL Comment At Once
+SQL편집기세부기능,SQLEditorAdvanced,comment-block-remove-01-ko,SQL 구문 주석 한 번에 해제하기,comment-block-remove-01-en,Uncomment SQL At Once
+SQL편집기세부기능,SQLEditorAdvanced,comment-block-remove-02-ko,SQL 구문 주석 한 번에 해제하기,comment-block-remove-02-en,Uncomment SQL At Once
+SQL편집기세부기능,SQLEditorAdvanced,convert-SQL-java-codes-ko,SQL을 Java 코드로 변환하기,convert-SQL-java-codes-en,Convert SQL to Java Codes
+SQL편집기세부기능,SQLEditorAdvanced,convert-SQL-java-codes-view,SQL을 Java 코드로 변환하기,convert-SQL-java-codes-view,Convert SQL to Java Codes
+SQL편집기세부기능,SQLEditorAdvanced,create-separate-window-query-result-ko,편집기 창과 그리드 분리하기,create-separate-window-query-result-en,Create a Separate Window for Editor and Grid
+SQL편집기세부기능,SQLEditorAdvanced,extract-SQL-from-java-result-ko,Java 코드에서 SQL 추출하기,extract-SQL-from-java-result-en,Extract SQL from Java
+SQL편집기세부기능,SQLEditorAdvanced,extract-SQL-from-java,Java 코드에서 SQL 추출하기,extract-SQL-from-java,Extract SQL from Java
+SQL편집기세부기능,SQLEditorAdvanced,relocate-editor-window-grid-ko,편집기 창과 그리드 위치 재정렬 하기,relocate-editor-window-grid-en,Relocate Editor Window and Grid
+SQL편집기세부기능,SQLEditorAdvanced,view-editor-only-ko,편집기 창만 보기,view-editor-only-en,View Editor Only
+SQL편집기세부기능,SQLEditorAdvanced,view-table-data-right-away-ko,테이블 데이터 바로 보기,view-table-data-right-away-en,View Table Data Right Away
+SQL편집기세부기능,SQLEditorAdvanced,view-table-infomation-ko,테이블 전체 정보 바로 보기,view-table-infomation-en,Get Full Table Information
+SQL편집기세부기능,SQLEditorAdvanced,view-table-schema-right-away-ko,테이블 스키마 바로 보기,view-table-schema-right-away-en,View Table Schema Right Away
+실행계획,executionPlan,execution-plan-aflow-chart-ko,SQL 실행계획 플로우 차트로 보기,execution-plan-aflow-chart-en,"On the Flow Chart tab, check if the Flow Chart has correctly been created ."
+실행계획,executionPlan,execution-plan-block-ko,블록 SQL 실행 계획으로 실행하기 하기,execution-plan-block-en,Run Using Execution Plan of Block SQL
+실행계획,executionPlan,execution-plan-ko,SQL 실행 계획을 실행하고 인덱스 확인하기,execution-plan-en,Run SQL Execution Plan and Check Index
+실행계획,executionPlan,execution-plan-text-ko,SQL 실행계획 텍스트로 보기,execution-plan-text-en,Execution Plan text
+실행계획,executionPlan,icon-sql-editor-addEditor,편집기 추가,icon-sql-editor-addEditor,Add Editor
+실행계획,executionPlan,icon-sql-editor-autocompleteDisable,편집기 자동완성 사용안함,icon-sql-editor-autocompleteDisable,Disable Autocomplate
+실행계획,executionPlan,icon-sql-editor-autocompleteRefresh,편집기 자동완성 캐쉬 새로고침,icon-sql-editor-autocompleteRefresh,Refresh Autocomplate cache data
+실행계획,executionPlan,icon-sql-editor-awrReport,AWR 리포트 보기,icon-sql-editor-awrReport,AWR Report
+실행계획,executionPlan,icon-sql-editor-blockSQLExecutionPlan,실행계획 보기,icon-sql-editor-blockSQLExecutionPlan,Run Execution plan
+실행계획,executionPlan,icon-sql-editor-capitalize,첫글자를 대문자로,icon-sql-editor-capitalize,Capitalize
+실행계획,executionPlan,icon-sql-editor-changeCase,대소문자 바꾸기,icon-sql-editor-changeCase,Change Case
+실행계획,executionPlan,icon-sql-editor-clearAll,에디터 비우기,icon-sql-editor-clearAll,Clear ALL
+실행계획,executionPlan,icon-sql-editor-commentBlock,주석 달기,icon-sql-editor-commentBlock,Comment Block
+실행계획,executionPlan,icon-sql-editor-copy,복사하기,icon-sql-editor-copy,Copy
+실행계획,executionPlan,icon-sql-editor-copyEditor,에디터 복사하기,icon-sql-editor-copyEditor,Copy Editor
+실행계획,executionPlan,icon-sql-editor-cut,잘라내기,icon-sql-editor-cut,Cut
+실행계획,executionPlan,icon-sql-editor-delete,삭제하기,icon-sql-editor-delete,Delete
+실행계획,executionPlan,icon-sql-editor-executionStatistic,실행계획 통계,icon-sql-editor-executionStatistic,Execution plan statistic
+실행계획,executionPlan,icon-sql-editor-find,찾기,icon-sql-editor-find,Find
+실행계획,executionPlan,icon-sql-editor-findAll,모두찾기,icon-sql-editor-findAll,Find all
+실행계획,executionPlan,icon-sql-editor-findFirst,처음부터 찾기,icon-sql-editor-findFirst,Find first
+실행계획,executionPlan,icon-sql-editor-findLast,마지막 찾기,icon-sql-editor-findLast,Find last
+실행계획,executionPlan,icon-sql-editor-findNext,다음 찾기,icon-sql-editor-findNext,Find next
+실행계획,executionPlan,icon-sql-editor-gotoLine,줄이동,icon-sql-editor-gotoLine,Goto line
+실행계획,executionPlan,icon-sql-editor-indent,들여쓰기,icon-sql-editor-indent,Indent
+실행계획,executionPlan,icon-sql-editor-lowercase,소문자로 바꾸기,icon-sql-editor-lowercase,Lowercase
+실행계획,executionPlan,icon-sql-editor-moveTabToRight,결과창 오른쪽으로 보기,icon-sql-editor-moveTabToRight,Move tab to right
+실행계획,executionPlan,icon-sql-editor-nextEditor,다음 편집기,icon-sql-editor-nextEditor,Next editor
+실행계획,executionPlan,icon-sql-editor-openFile,파일 열기,icon-sql-editor-openFile,Open file
+실행계획,executionPlan,icon-sql-editor-outdent,내어쓰기,icon-sql-editor-outdent,Outdent
+실행계획,executionPlan,icon-sql-editor-paste,붙여넣기,icon-sql-editor-paste,Paste
+실행계획,executionPlan,icon-sql-editor-pasteFromTheCode,코드에서 붙여넣지,icon-sql-editor-pasteFromTheCode,Paste from the code
+실행계획,executionPlan,icon-sql-editor-previousEditor,이전 편집기,icon-sql-editor-previousEditor,Previouse Editor
+실행계획,executionPlan,icon-sql-editor-printPreview,인쇄 미리보기,icon-sql-editor-printPreview,Print preview
+실행계획,executionPlan,icon-sql-editor-queryDescription,쿼리 설명,icon-sql-editor-queryDescription,Query description
+실행계획,executionPlan,icon-sql-editor-redo,재실행,icon-sql-editor-redo,Redo
+실행계획,executionPlan,icon-sql-editor-removeEditor,에디터 제거하기,icon-sql-editor-removeEditor,Remove editor
+실행계획,executionPlan,icon-sql-editor-replace,바꾸기,icon-sql-editor-replace,Replace
+실행계획,executionPlan,icon-sql-editor-runCurrentSQL,현재 SQL문자 실행,icon-sql-editor-runCurrentSQL,Run current SQL
+실행계획,executionPlan,icon-sql-editor-runCurrentSQLActualEstimateExecutionPlan,실행계획,icon-sql-editor-runCurrentSQLActualEstimateExecutionPlan,Run Current SQL Actual Estimate Execution Plan
+실행계획,executionPlan,icon-sql-editor-runCurrentSQLEstimateExecutionPlan,실행계획,icon-sql-editor-runCurrentSQLEstimateExecutionPlan,Run Current SQL Estimate Execution Plan
+실행계획,executionPlan,icon-sql-editor-runCurrentSQLExecutionPlan,실행계획,icon-sql-editor-runCurrentSQLExecutionPlan,Run Current SQL Execution Plan
+실행계획,executionPlan,icon-sql-editor-runSQL,SQL 실행,icon-sql-editor-runSQL,Run SQL
+실행계획,executionPlan,icon-sql-editor-save,저장하기,icon-sql-editor-save,Save
+실행계획,executionPlan,icon-sql-editor-saveAs,다른이름으로 저장하기,icon-sql-editor-saveAs,Save as
+실행계획,executionPlan,icon-sql-editor-selectAll,전체선택,icon-sql-editor-selectAll,Select all
+실행계획,executionPlan,icon-sql-editor-sessionStatistic,세션 통계,icon-sql-editor-sessionStatistic,Session statistic
+실행계획,executionPlan,icon-sql-editor-setBackgroundColor,배경 색 변경,icon-sql-editor-setBackgroundColor,Set Background Color
+실행계획,executionPlan,icon-sql-editor-showBlankTabReturn,탭 공백 리턴 문자보기,icon-sql-editor-showBlankTabReturn,"Show blank, tab, Return"
+실행계획,executionPlan,icon-sql-editor-SQLAlignment,SQL맞춤,icon-sql-editor-SQLAlignment,SQL Alignment
+실행계획,executionPlan,icon-sql-editor-SQLAlignmentOptions,SQL맞춤 옵션,icon-sql-editor-SQLAlignmentOptions,SQL Alignment Options
+실행계획,executionPlan,icon-sql-editor-SQLConvert,SQL문장을 코드로 변환하기,icon-sql-editor-SQLConvert,SQL Convert
+실행계획,executionPlan,icon-sql-editor-SQLHistory,SQL기록,icon-sql-editor-SQLHistory,SQL History
+실행계획,executionPlan,icon-sql-editor-SQLTrace,SQL추적하기,icon-sql-editor-SQLTrace,SQL Trace
+실행계획,executionPlan,icon-sql-editor-SQLTuningAdvisor,SQL튜닝,icon-sql-editor-SQLTuningAdvisor,SQL Tuning Advisor
+실행계획,executionPlan,icon-sql-editor-stop,중지,icon-sql-editor-stop,Stop
+실행계획,executionPlan,icon-sql-editor-runAndModifyCurrentSQL,현재쿼리 실행 및 수정,icon-sql-editor-runAndModifyCurrentSQL,Run current SQL and modify the data on the grid.
+실행계획,executionPlan,icon-sql-editor-subQueryBlock,하위쿼리 블록 실행,icon-sql-editor-subQueryBlock,Run the SubQuery block.
+실행계획,executionPlan,icon-sql-editor-toggleFolding,접기 설정/해제,icon-sql-editor-toggleFolding,Toggle folding.
+실행계획,executionPlan,icon-sql-editor-uncommentBlock,블록주석 제거,icon-sql-editor-uncommentBlock,Uncomment block
+실행계획,executionPlan,icon-sql-editor-undo,실행 취소,icon-sql-editor-undo,Undo
+실행계획,executionPlan,icon-sql-editor-uppercase,대문자로 변경하기,icon-sql-editor-uppercase,Uppercase
+실행계획,executionPlan,icon-sql-editor-useBindVariable,바인드 변수 사용,icon-sql-editor-useBindVariable,Use bind variables
+실행계획,executionPlan,icon-sql-editor-useSubstitutionVariable,대체 변수 사용,icon-sql-editor-useSubstitutionVariable,Use Substitution variables
+실행계획,executionPlan,icon-sql-editor-wordWrap,자동 줄 바꿈 설정/해제,icon-sql-editor-wordWrap,Word wrap
+DBMS_OUTPUT,DBMS_OUTPUT,dbmsoutput-plsql-editor,DBMS_OUTPUT view,dbmsoutput-plsql-editor,DBMS_OUTPUT view
+DBMS_OUTPUT,DBMS_OUTPUT,icon-sql-editor-clearOutput,Clears off the output.,icon-sql-editor-clearOutput,Clears off the output.
+DBMS_OUTPUT,DBMS_OUTPUT,icon-sql-editor-refreshDBMSOutput,Refreshes the result.,icon-sql-editor-refreshDBMSOutput,Refreshes the result.
+DBMS_OUTPUT,DBMS_OUTPUT,icon-sql-editor-saveAsFile,Saves the result as set file type.,icon-sql-editor-saveAsFile,Saves the result as set file type.
+DBMS_OUTPUT,DBMS_OUTPUT,icon-sql-editor-setBufferSize,Set the size of DBMS OUTPUT buffer. Oracle databases support from 2KB to 1MB. The default is set to 10000KB.,icon-sql-editor-setBufferSize,Set the size of DBMS OUTPUT buffer. Oracle databases support from 2KB to 1MB. The default is set to 10000KB.
+DBMS_OUTPUT,DBMS_OUTPUT,icon-sql-editor-turnOffDBMSOutput,Enables/disables DBMS OUTPUT.,icon-sql-editor-turnOffDBMSOutput,Enables/disables DBMS OUTPUT.
+프로시저,precedure,precedure-recompile-01,Procedure Recompile Objects,precedure-recompile-01,Procedure Recompile Objects
+프로시저,precedure,precedure-recompile-02,Procedure Recompile Objects,precedure-recompile-02,Procedure Recompile Objects
+프로시저,precedure,precedure-recompile-03,Procedure Recompile Objects,precedure-recompile-03,Procedure Recompile Objects
+프로시저,precedure,precedure-recompile-04,Procedure Recompile Objects,precedure-recompile-04,Procedure Recompile Objects
+프로시저,precedure,procedure-check-result-01,Run Procedure and Check The Result Value,procedure-check-result-01,Run Procedure and Check The Result Value
+프로시저,precedure,procedure-check-result-02,Run Procedure and Check The Result Value,procedure-check-result-02,Run Procedure and Check The Result Value
+프로시저,precedure,procedure-check-result-03,Run Procedure and Check The Result Value,procedure-check-result-03,Run Procedure and Check The Result Value
+프로시저,precedure,procedure-compile-find-error,Find Error in Procedure and Compile,procedure-compile-find-error,Find Error in Procedure and Compile
+프로시저,precedure,procedure-view-version,View Version While Coding Procedure,procedure-view-version,View Version While Coding Procedure
+프로시저,precedure,procedures-autocomplete,Use Code AutoComplete to Type Less Codes,procedures-autocomplete,Use Code AutoComplete to Type Less Codes
+쿼리빌더,query-builder,queryBuilder-add-column-01,Add Column on Query Builder,queryBuilder-add-column-01,Add Column on Query Builder
+쿼리빌더,query-builder,queryBuilder-add-column-02,Add Column on Query Builder,queryBuilder-add-column-02,Add Column on Query Builder
+쿼리빌더,query-builder,queryBuilder-add-delete-table-01,Add or Delete Query Builder Table,queryBuilder-add-delete-table-01,Add or Delete Query Builder Table
+쿼리빌더,query-builder,queryBuilder-add-delete-table-02,Add or Delete Query Builder Table,queryBuilder-add-delete-table-02,Add or Delete Query Builder Table
+쿼리빌더,query-builder,queryBuilder-create-join-01,Create JOIN Between Tables,queryBuilder-create-join-01,Create JOIN Between Tables
+쿼리빌더,query-builder,queryBuilder-create-join-02,Create JOIN Between Tables,queryBuilder-create-join-02,Create JOIN Between Tables
+쿼리빌더,query-builder,queryBuilder-create-join-03,Create JOIN Between Tables,queryBuilder-create-join-03,Create JOIN Between Tables
+쿼리빌더,query-builder,queryBuilder-create-join-04,Create JOIN Between Tables,queryBuilder-create-join-04,Create JOIN Between Tables
+데이터그리드,datagrid,datagrid-addColumnNameOnTheEditor,View Data Horizontally/Vertically,datagrid-addColumnNameOnTheEditor,View Data Horizontally/Vertically
+데이터그리드,datagrid,datagrid-addModifyClipboardData-01,Add/Modify Clipboard Data on the Grid,datagrid-addModifyClipboardData-01,Add/Modify Clipboard Data on the Grid
+데이터그리드,datagrid,datagrid-addModifyClipboardData,Add/Modify Clipboard Data on the Grid,datagrid-addModifyClipboardData,Add/Modify Clipboard Data on the Grid
+데이터그리드,datagrid,datagrid-copySelectedCells,Copy Selected Cell,datagrid-copySelectedCells,Copy Selected Cell
+데이터그리드,datagrid,datagrid-createInSystax-01,Auto-create IN syntax,datagrid-createInSystax-01,Auto-create IN syntax
+데이터그리드,datagrid,datagrid-createInSystax,Auto-create IN syntax,datagrid-createInSystax,Auto-create IN syntax
+데이터그리드,datagrid,datagrid-operateSelectedCell,Operate Selected Cell,datagrid-operateSelectedCell,Operate Selected Cell
+데이터그리드,datagrid,datagrid-pinSelectedColumn,Fix the Selected Column,datagrid-pinSelectedColumn,Fix the Selected Column
+데이터그리드,datagrid,datagrid-saveResultAsExcel,Save Results as Excel,datagrid-saveResultAsExcel,Save Results as Excel
+데이터그리드,datagrid,datagrid-selectMultipleCells,Select Multiple Cells,datagrid-selectMultipleCells,Select Multiple Cells
+데이터그리드,datagrid,datagrid-sortSelectedColumn-01,Sort Selected Columns,datagrid-sortSelectedColumn-01,Sort Selected Columns
+데이터그리드,datagrid,datagrid-sortSelectedColumn-02,Sort Selected Columns,datagrid-sortSelectedColumn-02,Sort Selected Columns
+데이터그리드,datagrid,datagrid-sortSelectedColumn,Sort Selected Columns,datagrid-sortSelectedColumn,Sort Selected Columns
+데이터그리드,datagrid,datagrid-viewDataHorizontallyVertically-01,View Data Horizontally/Vertically,datagrid-viewDataHorizontallyVertically-01,View Data Horizontally/Vertically
+데이터그리드,datagrid,datagrid-viewDataHorizontallyVertically,View Data Horizontally/Vertically,datagrid-viewDataHorizontallyVertically,View Data Horizontally/Vertically
+개체탐색기,objectExplorer,object-searchPanel,Search for Object,object-searchPanel,Search for Object
+개체탐색기,objectExplorer,object-searchPanelDetail,Check details of the searched objects.,object-searchPanelDetail,Check details of the searched objects.
+개체탐색기,objectExplorer,object-searchPanelDetailData,Change Data Value on Field,object-searchPanelDetailData,Change Data Value on Field
+개체탐색기,objectExplorer,objectExplorer-alwaysOnTop,Object Tabs in Object Explorer,objectExplorer-alwaysOnTop,Object Tabs in Object Explorer
+개체탐색기,objectExplorer,objectPanel-filter-01,Filter Objects,objectPanel-filter-01,Filter Objects
+개체탐색기,objectExplorer,objectPanel-filter-02,Filter Objects,objectPanel-filter-02,Filter Objects
+개체탐색기,objectExplorer,objectPanel-filter-03,Filter Objects,objectPanel-filter-03,Filter Objects
+개체탐색기,objectExplorer,objectPanel-recycleBin-01,how to restore object from the Recycle Bin.,objectPanel-recycleBin-01,how to restore object from the Recycle Bin.
+개체탐색기,objectExplorer,objectPanel-recycleBin-02,how to restore object from the Recycle Bin.,objectPanel-recycleBin-02,how to restore object from the Recycle Bin.
+개체탐색기,objectExplorer,objectPanel-recycleBin-03,how to restore object from the Recycle Bin.,objectPanel-recycleBin-03,how to restore object from the Recycle Bin.
+개체탐색기,objectExplorer,objectPanel-recycleBin-04,how to restore object from the Recycle Bin.,objectPanel-recycleBin-04,how to restore object from the Recycle Bin.
+개체탐색기,objectExplorer,icon-object-add,"add/new, icon",icon-object-add,"add/new, icon"
+개체탐색기,objectExplorer,icon-object-analyze,"analyze, icon",icon-object-analyze,"analyze, icon"
+개체탐색기,objectExplorer,icon-object-compileRebuild,"compile/rebuild, icon",icon-object-compileRebuild,"compile/rebuild, icon"
+개체탐색기,objectExplorer,icon-object-debug,"debug, icon",icon-object-debug,"debug, icon"
+개체탐색기,objectExplorer,icon-object-delete,"delete, icon",icon-object-delete,"delete, icon"
+개체탐색기,objectExplorer,icon-object-descriptionPane,"description pane, icon",icon-object-descriptionPane,"description pane, icon"
+개체탐색기,objectExplorer,icon-object-disable,"disable, icon",icon-object-disable,"disable, icon"
+개체탐색기,objectExplorer,icon-object-editComment,"edit comment, icon",icon-object-editComment,"edit comment, icon"
+개체탐색기,objectExplorer,icon-object-empty,"empty, icon",icon-object-empty,"empty, icon"
+개체탐색기,objectExplorer,icon-object-enable,"enable, icon",icon-object-enable,"enable, icon"
+개체탐색기,objectExplorer,icon-object-execute,"execute, icon",icon-object-execute,"execute, icon"
+개체탐색기,objectExplorer,icon-object-exportData,"export data, icon",icon-object-exportData,"export data, icon"
+개체탐색기,objectExplorer,icon-object-filter,"filter, icon",icon-object-filter,"filter, icon"
+개체탐색기,objectExplorer,icon-object-importData,"import data, icon",icon-object-importData,"import data, icon"
+개체탐색기,objectExplorer,icon-object-modify,"new synonym, icon",icon-object-modify,"new synonym, icon"
+개체탐색기,objectExplorer,icon-object-newSynonym,"refresh, icon",icon-object-newSynonym,"refresh, icon"
+개체탐색기,objectExplorer,icon-object-refresh,"refresh, icon",icon-object-refresh,"refresh, icon"
+개체탐색기,objectExplorer,icon-object-restore,"restore, icon",icon-object-restore,"restore, icon"
+개체탐색기,objectExplorer,icon-object-sqlEditor,"sql editor, icon",icon-object-sqlEditor,"sql editor, icon"
+개체탐색기,objectExplorer,icon-object-test,"test, icon",icon-object-test,"test, icon"
+개체탐색기,objectExplorer,icon-object-viewEditPrivilege,"view/edit privilege, icon",icon-object-viewEditPrivilege,"view/edit privilege, icon"
+만들기,create,create-collectionType-sqlView,create Collection Type,create-collectionType-sqlView,create Collection Type
+만들기,create,create-collectionType,create Constraints,create-collectionType,create Constraints
+만들기,create,create-constraint,create Constraints,create-constraint,create Constraints
+만들기,create,create-databaseLink-sqlView,create Database Link,create-databaseLink-sqlView,create Database Link
+만들기,create,create-databaseLink,create Database Link,create-databaseLink,create Database Link
+만들기,create,create-index-sqlView,create index sql view,create-index-sqlView,create index sql view
+만들기,create,create-index,create index,create-index,create index
+만들기,create,create-job,create job,create-job,create job
+만들기,create,create-objectType,create object type,create-objectType,create object type
+만들기,create,create-PLSQLObject,create Procedure/Function/Package,create-PLSQLObject,create Procedure/Function/Package
+만들기,create,create-profile-01,create profile,create-profile-01,create profile
+만들기,create,create-profile-02,create profile,create-profile-02,create profile
+만들기,create,create-redoLogGroup,create Redo Log Group,create-redoLogGroup,create Redo Log Group
+만들기,create,create-role,create role,create-role,create role
+만들기,create,create-rollbackSegment,create Rollback Segment,create-rollbackSegment,create Rollback Segment
+만들기,create,create-sequence,create sequence,create-sequence,create sequence
+만들기,create,create-synonym,create synonym,create-synonym,create synonym
+만들기,create,create-table,create table,create-table,create table
+만들기,create,create-tableSpace-01,create tableSpace,create-tableSpace-01,create tableSpace
+만들기,create,create-tableSpace,create tableSpace,create-tableSpace,create tableSpace
+만들기,create,create-trigger,create trigger,create-trigger,create trigger
+만들기,create,create-view,create view,create-view,create view
+보고서,report,report-design,보고서 디자인,report-design,Design Object Reports
+보고서,report,report-exportExcel,보고서 엑셀 내보내기,report-exportExcel,Export Object Reports to Excel
+보고서,report,report-exportScript-exportFile,SQL스크립트 파일로 내보내기,report-exportScript-exportFile,Export Table Script
+보고서,report,report-exportScript-menu,SQL스크립트 보고서,report-exportScript-menu,Export Table Script
+보고서,report,report-exportScript,SQL스크립트 보고서,report-exportScript,Export Table Script
+보고서,report,report-menu,보고서 메뉴,report-menu,Design Object Reports
+보고서,report,report-preview,보고서 미리보기,report-preview,Object Reports Preview
+보고서,report,report-selectSchema,보고서 스키마 선택,report-selectSchema,Select schema and object.
+매니저,manager,manager-securityManager-grantSystemPrivileges-role,Grant System Privileges to Users Role,manager-securityManager-grantSystemPrivileges-role,Grant System Privileges to Users Role
+매니저,manager,manager-securityManager-grantSystemPrivileges-user,Grant System Privileges to Users,manager-securityManager-grantSystemPrivileges-user,Grant System Privileges to Users
+매니저,manager,manager-securityManager-grantSystemPrivileges,Grant System Privileges to Users,manager-securityManager-grantSystemPrivileges,Grant System Privileges to Users
+매니저,manager,manager-securityManager-newUser,Define Roles for New User,manager-securityManager-newUser,Define Roles for New User
+매니저,manager,manager-securityManager-objectPrivilege,Define Roles for New User Object Privilege,manager-securityManager-objectPrivilege,Define Roles for New User Object Privilege
+매니저,manager,manager-securityManager-role,Define Roles for New User Role,manager-securityManager-role,Define Roles for New User Role
+매니저,manager,manager-securityManager-systemPrivileges,Grant/Revoke New User System Privileges,manager-securityManager-systemPrivileges,Grant/Revoke New User System Privileges
+매니저,manager,manager-securityManager-tableSpaceQuota,Grant a tablespace quota.,manager-securityManager-tableSpaceQuota,Grant a tablespace quota.
+매니저,manager,manager-securityManager,Register a New User and Grant Privileges,manager-securityManager,Register a New User and Grant Privileges
+매니저,manager,manager-sessionBrowser-kill,View Session Info with Session Browser Kill,manager-sessionBrowser-kill,View Session Info with Session Browser Kill
+매니저,manager,manager-sessionBrowser-trace,View Session Info with Session Browser Trace,manager-sessionBrowser-trace,View Session Info with Session Browser Trace
+매니저,manager,manager-sessionBrowser,View Session Info with Session Browser,manager-sessionBrowser,View Session Info with Session Browser
+매니저,manager,manager-tableSpaceManager-alterTableSpace-addDataFile,Expand Tablespace Using Tablespace Manager Add Data File,manager-tableSpaceManager-alterTableSpace-addDataFile,Expand Tablespace Using Tablespace Manager Add Data File
+매니저,manager,manager-tableSpaceManager-alterTableSpace,Expand Tablespace Using Tablespace Manager Alter Tablespace,manager-tableSpaceManager-alterTableSpace,Expand Tablespace Using Tablespace Manager Alter Tablespace
+매니저,manager,manager-tableSpaceManager,Expand Tablespace Using Tablespace Manager,manager-tableSpaceManager,Expand Tablespace Using Tablespace Manager
+옵션,option,option-convertSQL,option convertSQL,option-convertSQL,option convertSQL
+옵션,option,option-general,option general,option-general,option general
+옵션,option,option-grid,option grid,option-grid,option grid
+옵션,option,option-objectExplorer,option objectExplorer,option-objectExplorer,option objectExplorer
+옵션,option,option-oracleConfiguration,option oracleConfiguration,option-oracleConfiguration,option oracleConfiguration
+옵션,option,option-oracleUtilityPath,option oracleUtilityPath,option-oracleUtilityPath,option oracleUtilityPath
+옵션,option,option-queryShortcuts,option queryShortcuts,option-queryShortcuts,option queryShortcuts
+옵션,option,option-SQLEditor-autoComplete,option SQLEditor autoComplete,option-SQLEditor-autoComplete,option SQLEditor autoComplete
+옵션,option,option-SQLEditor-codeTemplate,option SQLEditor codeTemplate,option-SQLEditor-codeTemplate,option SQLEditor codeTemplate
+옵션,option,option-SQLEditor-font,option SQLEditor font,option-SQLEditor-font,option SQLEditor font
+옵션,option,option-SQLEditor-general,option SQLEditor general,option-SQLEditor-general,option SQLEditor general
+옵션,option,option-SQLEditor-highlight,option SQLEditor highlight,option-SQLEditor-highlight,option SQLEditor highlight
+옵션,option,option-SQLEditor-keywordTemplate,option SQLEditor keywordTemplate,option-SQLEditor-keywordTemplate,option SQLEditor keywordTemplate
+옵션,option,option-SQLEditor,option SQLEditor,option-SQLEditor,option SQLEditor
+옵션,option,option-subscription,option subscription,option-subscription,option subscription
