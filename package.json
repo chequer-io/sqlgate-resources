@@ -43,7 +43,7 @@
   "scripts": {
     "start": "react-app-rewired start --scripts-version react-scripts-ts",
     "build":
-      "react-app-rewired build --scripts-version react-scripts-ts && rm -rf ./docs && mv build ./docs && cp ./src/CNAME ./docs/CNAME",
+      "react-app-rewired build --scripts-version react-scripts-ts && rm -rf ./docs && mv build ./docs",
     "test":
       "react-app-rewired test --scripts-version react-scripts-ts --env=jsdom",
     "tslint-check": "tslint-config-prettier-check ./tslint.json"
