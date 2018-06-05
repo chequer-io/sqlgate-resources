@@ -45,6 +45,8 @@
 ,
 {"category":"마법사","folder":"wizard","name-ko":"data-export-wizard-03-ko","desc-ko":"데이터 내보내기할 개체 선택하기 창","name-en":"data-export-wizard-03-en","desc-en":"choose object window to export data"}
 ,
+{"category":"마법사","folder":"wizard","name-ko":"data-export-wizard-04-ko","desc-ko":"데이터 내보내기 마법사 쿼리 결과에서 시작","name-en":"data-export-wizard-04-en","desc-en":"export data in query result"}
+,
 {"category":"마법사","folder":"wizard","name-ko":"data-import-wizard-column-mapping-ko","desc-ko":"데이터 가져오기 마법사 열 매핑","name-en":"data-import-wizard-column-mapping-en","desc-en":"import data wizard column mapping"}
 ,
 {"category":"마법사","folder":"wizard","name-ko":"data-import-wizard-file-additional-option-ko","desc-ko":"데이터 가져오기 마법사 추가 옵션 설정","name-en":"data-import-wizard-file-additional-option-en","desc-en":"import data wizard file additional option"}

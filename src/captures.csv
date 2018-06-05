@@ -22,6 +22,7 @@ category,folder,name-ko,desc-ko,name-en,desc-en
 마법사,wizard,data-export-wizard-01-ko,데이터 내보내기 마법사 툴바에서 시작,data-export-wizard-01-en,export data in toolbar
 마법사,wizard,data-export-wizard-02-ko,데이터 내보내기 바법사 개체탐색기에서 시작,data-export-wizard-02-en,export data in order panel
 마법사,wizard,data-export-wizard-03-ko,데이터 내보내기할 개체 선택하기 창,data-export-wizard-03-en,choose object window to export data
+마법사,wizard,data-export-wizard-04-ko,데이터 내보내기 마법사 쿼리 결과에서 시작,data-export-wizard-04-en,export data in query result
 마법사,wizard,data-import-wizard-column-mapping-ko,데이터 가져오기 마법사 열 매핑,data-import-wizard-column-mapping-en,import data wizard column mapping
 마법사,wizard,data-import-wizard-file-additional-option-ko,데이터 가져오기 마법사 추가 옵션 설정,data-import-wizard-file-additional-option-en,import data wizard file additional option
 마법사,wizard,data-import-wizard-file-option-ko,데이터 가져오기 마법사 옵션 설정,data-import-wizard-file-option-en,import data wizard fiile option
