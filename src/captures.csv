@@ -8,7 +8,7 @@ category,folder,name-ko,desc-ko,name-en,desc-en
 시작/인증,start,new-connection-ko,"새 접속, 오라클",new-connection-en,new connection
 시작/인증,start,new-connection-oci-ko,"새 접속, OCI, 오라클",new-connection-oci-en,new connection oci
 시작/인증,start,new-connection-en-mysql,"데이터베이스 접속, 새접속, MySQL",new-connection-en-mysql,new connection mysql
-시작/인증,start,new-connection-en-postgre,"데이터베이스 접속, 새접속, postgreSQL, pgsql",new-connection-en-mysql,new connection postgreSQL
+시작/인증,start,new-connection-en-postgre,"데이터베이스 접속, 새접속, postgreSQL, pgsql",new-connection-en-postgre,new connection postgreSQL
 시작/인증,start,choice-plan-ko,"구독 플랜 선택, choice your plan, 오라클",choice-plan-en,choose your plan
 쿼리만들기,query-editor,query-editor-empty-ko,"빈쿼리에디터, empty query editor, 기본에디터, default editor, SQL Editor, SQL 에디터, 오라클",query-editor-empty-en,SQL query editor
 쿼리만들기,query-editor,query-builder-menu-ko,쿼리작성기 메뉴,query-builder-menu-en,SQL query builder
