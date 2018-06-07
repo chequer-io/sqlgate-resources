@@ -345,6 +345,10 @@
 ,
 {"category":"프로시저","folder":"precedure","name-ko":"procedures-autocomplete","desc-ko":"Use Code AutoComplete to Type Less Codes","name-en":"procedures-autocomplete","desc-en":"Use Code AutoComplete to Type Less Codes"}
 ,
+{"category":"데이터내보내기","folder":"export-data","name-ko":"data-export-wizard-selectFileType","desc-ko":"export data in query result","name-en":"data-export-wizard-selectFileType","desc-en":"export data in query result"}
+,
+{"category":"데이터내보내기","folder":"export-data","name-ko":"data-export-wizard-setFilePath","desc-ko":"Set data export wizard options","name-en":"data-export-wizard-setFilePath","desc-en":"Set data export wizard options"}
+,
 {"category":"쿼리빌더","folder":"query-builder","name-ko":"queryBuilder-add-column-01","desc-ko":"Add Column on Query Builder","name-en":"queryBuilder-add-column-01","desc-en":"Add Column on Query Builder"}
 ,
 {"category":"쿼리빌더","folder":"query-builder","name-ko":"queryBuilder-add-column-02","desc-ko":"Add Column on Query Builder","name-en":"queryBuilder-add-column-02","desc-en":"Add Column on Query Builder"}

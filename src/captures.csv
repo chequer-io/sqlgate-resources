@@ -175,6 +175,8 @@ DBMS_OUTPUT,DBMS_OUTPUT,icon-sql-editor-turnOffDBMSOutput,Enables/disables DBMS 
 프로시저,precedure,procedure-compile-find-error,Find Error in Procedure and Compile,procedure-compile-find-error,Find Error in Procedure and Compile
 프로시저,precedure,procedure-view-version,View Version While Coding Procedure,procedure-view-version,View Version While Coding Procedure
 프로시저,precedure,procedures-autocomplete,Use Code AutoComplete to Type Less Codes,procedures-autocomplete,Use Code AutoComplete to Type Less Codes
+데이터내보내기,export-data,data-export-wizard-selectFileType,export data in query result,data-export-wizard-selectFileType,export data in query result
+데이터내보내기,export-data,data-export-wizard-setFilePath,Set data export wizard options,data-export-wizard-setFilePath,Set data export wizard options
 쿼리빌더,query-builder,queryBuilder-add-column-01,Add Column on Query Builder,queryBuilder-add-column-01,Add Column on Query Builder
 쿼리빌더,query-builder,queryBuilder-add-column-02,Add Column on Query Builder,queryBuilder-add-column-02,Add Column on Query Builder
 쿼리빌더,query-builder,queryBuilder-add-delete-table-01,Add or Delete Query Builder Table,queryBuilder-add-delete-table-01,Add or Delete Query Builder Table
