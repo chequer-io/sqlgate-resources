@@ -45,6 +45,7 @@
       "react-app-rewired build --scripts-version react-scripts-ts && rm -rf ./docs && mv build ./docs && cp ./src/CNAME ./docs/CNAME",
     "test":
       "react-app-rewired test --scripts-version react-scripts-ts --env=jsdom",
-    "tslint-check": "tslint-config-prettier-check ./tslint.json"
+    "tslint-check": "tslint-config-prettier-check ./tslint.json",
+    "csvtojson": "csvtojson ./src/captures.csv > ./src/captures.json"
   }
 }

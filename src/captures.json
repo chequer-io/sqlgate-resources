@@ -1,2328 +1,578 @@
 [
-  {
-    "category": "시작/인증",
-    "folder": "start",
-    "name-ko": "empty-oracle-ko",
-    "desc-ko": "인증전, 로그인전, 빈화면, 오라클, 메인화면",
-    "name-en": "empty-oracle-en",
-    "desc-en": "sqlgate main"
-  },
-  {
-    "category": "시작/인증",
-    "folder": "start",
-    "name-ko": "need-login-oracle-ko",
-    "desc-ko": "로그인필요, 오라클",
-    "name-en": "need-login-oracle-en",
-    "desc-en": "sqlgate require login"
-  },
-  {
-    "category": "시작/인증",
-    "folder": "start",
-    "name-ko": "need-login-oracle-offline-activate-ko",
-    "desc-ko": "로그인필요, 오프라인 활성화, 오라클",
-    "name-en": "need-login-oracle-offline-activate-en",
-    "desc-en": "sqlgate offline activation"
-  },
-  {
-    "category": "시작/인증",
-    "folder": "start",
-    "name-ko": "login-ko",
-    "desc-ko": "사용자인증, 로그인, 오라클",
-    "name-en": "login-en",
-    "desc-en": "sqlgate login"
-  },
-  {
-    "category": "시작/인증",
-    "folder": "start",
-    "name-ko": "offline-activate-ko",
-    "desc-ko": "오프라인 활성화, 오라클, 오프라인 활성화 코드를 입력하세요.",
-    "name-en": "offline-activate-en",
-    "desc-en": "sqlgate offline activation"
-  },
-  {
-    "category": "시작/인증",
-    "folder": "start",
-    "name-ko": "input-licensekey-ko",
-    "desc-ko": "SQLGate 정품 인증, 제품키, 오라클",
-    "name-en": "input-licensekey-en",
-    "desc-en": "input license key"
-  },
-  {
-    "category": "시작/인증",
-    "folder": "start",
-    "name-ko": "new-connection-ko",
-    "desc-ko": "새 접속, 오라클",
-    "name-en": "new-connection-en",
-    "desc-en": "new connection"
-  },
-  {
-    "category": "시작/인증",
-    "folder": "start",
-    "name-ko": "new-connection-oci-ko",
-    "desc-ko": "새 접속, OCI, 오라클",
-    "name-en": "new-connection-oci-en",
-    "desc-en": "new connection oci"
-  },
-  {
-    "category": "시작/인증",
-    "folder": "start",
-    "name-ko": "new-connection-en-mysql",
-    "desc-ko": "데이터베이스 접속, 새접속, MySQL",
-    "name-en": "new-connection-en-mysql",
-    "desc-en": "new connection mysql"
-  },
-  {
-    "category": "시작/인증",
-    "folder": "start",
-    "name-ko": "new-connection-en-postgre",
-    "desc-ko": "데이터베이스 접속, 새접속, postgreSQL, pgsql",
-    "name-en": "new-connection-en-postgre",
-    "desc-en": "new connection postgreSQL"
-  },
-  {
-    "category": "시작/인증",
-    "folder": "start",
-    "name-ko": "choice-plan-ko",
-    "desc-ko": "구독 플랜 선택, choice your plan, 오라클",
-    "name-en": "choice-plan-en",
-    "desc-en": "choose your plan"
-  },
-  {
-    "category": "쿼리만들기",
-    "folder": "query-editor",
-    "name-ko": "query-editor-empty-ko",
-    "desc-ko":
-      "빈쿼리에디터, empty query editor, 기본에디터, default editor, SQL Editor, SQL 에디터, 오라클",
-    "name-en": "query-editor-empty-en",
-    "desc-en": "SQL query editor"
-  },
-  {
-    "category": "쿼리만들기",
-    "folder": "query-editor",
-    "name-ko": "query-builder-menu-ko",
-    "desc-ko": "쿼리작성기 메뉴",
-    "name-en": "query-builder-menu-en",
-    "desc-en": "SQL query builder"
-  },
-  {
-    "category": "쿼리만들기",
-    "folder": "query-editor",
-    "name-ko": "query-builder-add-condition-ko",
-    "desc-ko":
-      "쿼리작성기 조건 추가, query builder add condition, Criteria, 기준",
-    "name-en": "query-builder-add-condition-en",
-    "desc-en": "SQL query builder add condition"
-  },
-  {
-    "category": "쿼리만들기",
-    "folder": "query-editor",
-    "name-ko": "query-builder-result-ko",
-    "desc-ko": "쿼리작성기 실행 결과, query builder run result, 오라클",
-    "name-en": "query-builder-result-en",
-    "desc-en": "SQL query builder excute result"
-  },
-  {
-    "category": "쿼리만들기",
-    "folder": "query-editor",
-    "name-ko": "query-builder-SQL-ko",
-    "desc-ko": "쿼리작성기 SQL, query builder SQL, 오라클",
-    "name-en": "query-builder-SQL-en",
-    "desc-en": "SQL query builder"
-  },
-  {
-    "category": "데이터수정",
-    "folder": "edit-data",
-    "name-ko": "run-and-modify-current-SQL-ko",
-    "desc-ko": "현재 SQL 실행 및 수정, run and modify current SQL, 오라클",
-    "name-en": "run-and-modify-current-SQL-en",
-    "desc-en": "run and modify current SQL"
-  },
-  {
-    "category": "데이터수정",
-    "folder": "edit-data",
-    "name-ko": "edit-data-on-table-detail-window-ko",
-    "desc-ko": "테이블설명창에서 데이터 수정",
-    "name-en": "edit-data-on-table-detail-window-en",
-    "desc-en":
-      "Edit data on table explanation window, On the Table Explanation window, click the Data tab."
-  },
-  {
-    "category": "마법사",
-    "folder": "wizard",
-    "name-ko": "create-table-wizard-01-ko",
-    "desc-ko": "새테이블 만들기 마법사 메뉴",
-    "name-en": "create-table-wizard-01-en",
-    "desc-en": "create table wizard menu"
-  },
-  {
-    "category": "마법사",
-    "folder": "wizard",
-    "name-ko": "create-table-wizard-02-ko",
-    "desc-ko": "새테이블 만들기 컬럼정보 입력 양식",
-    "name-en": "create-table-wizard-02-en",
-    "desc-en": "create table wizard column form"
-  },
-  {
-    "category": "마법사",
-    "folder": "wizard",
-    "name-ko": "data-export-wizard-01-ko",
-    "desc-ko": "데이터 내보내기 마법사 툴바에서 시작",
-    "name-en": "data-export-wizard-01-en",
-    "desc-en": "export data in toolbar"
-  },
-  {
-    "category": "마법사",
-    "folder": "wizard",
-    "name-ko": "data-export-wizard-02-ko",
-    "desc-ko": "데이터 내보내기 바법사 개체탐색기에서 시작",
-    "name-en": "data-export-wizard-02-en",
-    "desc-en": "export data in order panel"
-  },
-  {
-    "category": "마법사",
-    "folder": "wizard",
-    "name-ko": "data-export-wizard-03-ko",
-    "desc-ko": "데이터 내보내기할 개체 선택하기 창",
-    "name-en": "data-export-wizard-03-en",
-    "desc-en": "choose object window to export data"
-  },
-  {
-    "category": "마법사",
-    "folder": "wizard",
-    "name-ko": "data-export-wizard-04-ko",
-    "desc-ko": "데이터 내보내기 마법사 쿼리 결과에서 시작",
-    "name-en": "data-export-wizard-04-en",
-    "desc-en": "export data in query result"
-  },
-  {
-    "category": "마법사",
-    "folder": "wizard",
-    "name-ko": "data-import-wizard-column-mapping-ko",
-    "desc-ko": "데이터 가져오기 마법사 열 매핑",
-    "name-en": "data-import-wizard-column-mapping-en",
-    "desc-en": "import data wizard column mapping"
-  },
-  {
-    "category": "마법사",
-    "folder": "wizard",
-    "name-ko": "data-import-wizard-file-additional-option-ko",
-    "desc-ko": "데이터 가져오기 마법사 추가 옵션 설정",
-    "name-en": "data-import-wizard-file-additional-option-en",
-    "desc-en": "import data wizard file additional option"
-  },
-  {
-    "category": "마법사",
-    "folder": "wizard",
-    "name-ko": "data-import-wizard-file-option-ko",
-    "desc-ko": "데이터 가져오기 마법사 옵션 설정",
-    "name-en": "data-import-wizard-file-option-en",
-    "desc-en": "import data wizard fiile option"
-  },
-  {
-    "category": "마법사",
-    "folder": "wizard",
-    "name-ko": "data-import-wizard-file-preview-ko",
-    "desc-ko": "데이터 가져오기 마법사 파일 미리보기",
-    "name-en": "data-import-wizard-file-preview-en",
-    "desc-en": "import data wizard file preview"
-  },
-  {
-    "category": "마법사",
-    "folder": "wizard",
-    "name-ko": "data-import-wizard-run-summary-ko",
-    "desc-ko": "데이터 가져오기 마법사 실행 요약",
-    "name-en": "data-import-wizard-run-summary-en",
-    "desc-en": "import data wizard run summary"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "add-record-at-query-result-ko",
-    "desc-ko": "쿼리를 실행하고 결과 편집에서 데이터 추가",
-    "name-en": "add-record-at-query-result-en",
-    "desc-en": "run SQL and add record, add record at query result"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "bind-substitution-variables-active-ko",
-    "desc-ko": "대체 변수 사용 활성화",
-    "name-en": "bind-substitution-variables-active-en",
-    "desc-en": "active bind substitution variables"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "bind-substitution-variables-run-sql-ko",
-    "desc-ko": "대체 변수이용한 SQL 실행",
-    "name-en": "bind-substitution-variables-run-sql-en",
-    "desc-en": "bind substitution variables run sql"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "bind-variables-active-ko",
-    "desc-ko": "바인드 변수 사용 활성화",
-    "name-en": "bind-variables-active-en",
-    "desc-en": "active bind variables function"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "bind-variables-run-sql-ko",
-    "desc-ko": "바인드 변수이용한 SQL 실행",
-    "name-en": "bind-variables-run-sql-en",
-    "desc-en": "bind variables run sql"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "bind-variables-run-sql-result-ko",
-    "desc-ko": "바인드 변수이용한 SQL 실행 결과",
-    "name-en": "bind-variables-run-sql-result-en",
-    "desc-en": "bind variables run sql result"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "delete-record-at-query-result-ko",
-    "desc-ko": "쿼리를 실행하고 결과 편집에서 데이터 삭제",
-    "name-en": "delete-record-at-query-result-en",
-    "desc-en": "delete record query result"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "run-and-modify-current-SQL-ko",
-    "desc-ko": "쿼리를 실행하고 바로 편집하기",
-    "name-en": "run-and-modify-current-SQL-en",
-    "desc-en": "run and modify current SQL"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "run-multi-query-ko",
-    "desc-ko": "여러개의 쿼리 동시에 실행하기",
-    "name-en": "run-multi-query-en",
-    "desc-en": "run multi query"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "run-selected-query-ko",
-    "desc-ko": "여러개의 쿼리에서 한개",
-    "name-en": "run-selected-query-en",
-    "desc-en": "run selected query"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "run-single-query-ko",
-    "desc-ko": "SQL 한개의 쿼리 실행하기",
-    "name-en": "run-single-query-en",
-    "desc-en": "run single query"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "run-sub-query-ko",
-    "desc-ko": "하위 쿼리 블록 실행하기",
-    "name-en": "run-sub-query-en",
-    "desc-en": "run sub query"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "selection-sql-replace-ko",
-    "desc-ko": "선택영역에서 문자열 일괄 변환하기",
-    "name-en": "selection-sql-replace-en",
-    "desc-en": "selection sql replace"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "work-sql-history-ko",
-    "desc-ko": "아이콘, SQL 기록으로 작업하기",
-    "name-en": "work-sql-history-en",
-    "desc-en": "work sql history"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "icon-sql-history-add-to-editor",
-    "desc-ko": "아이콘, SQL 기록 편집기에 추가",
-    "name-en": "icon-sql-history-add-to-editor",
-    "desc-en": "icon sql history add to editor"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "icon-sql-history-add-to-new-tab",
-    "desc-ko": "아이콘, SQL 기록 새탭에 붙여넣기",
-    "name-en": "icon-sql-history-add-to-new-tab",
-    "desc-en": "icon sql history add to new tab"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "icon-sql-history-collapse",
-    "desc-ko": "아이콘, SQL 기록 그룹축소",
-    "name-en": "icon-sql-history-collapse",
-    "desc-en": "icon sql history collapse"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "icon-sql-history-copy-to-clipboard",
-    "desc-ko": "아이콘, SQL 기록 클립보드로 복사",
-    "name-en": "icon-sql-history-copy-to-clipboard",
-    "desc-en": "icon sql history copy to clipboard"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "icon-sql-history-delete-all-in-group",
-    "desc-ko": "아이콘, SQL 기록 현재 그룹의 SQL모두 삭제",
-    "name-en": "icon-sql-history-delete-all-in-group",
-    "desc-en": "icon sql history delete all in group"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "icon-sql-history-delete-group",
-    "desc-ko": "아이콘, SQL 기록 그룹 삭제",
-    "name-en": "icon-sql-history-delete-group",
-    "desc-en": "icon sql history delete group"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "icon-sql-history-delete-sql",
-    "desc-ko": "아이콘, SQL 기록 SQL 삭제",
-    "name-en": "icon-sql-history-delete-sql",
-    "desc-en": "icon sql history delete sql"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "icon-sql-history-expand-group",
-    "desc-ko": "아이콘, SQL 기록 그룹확장",
-    "name-en": "icon-sql-history-expand-group",
-    "desc-en": "icon sql history expand group"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "icon-sql-history-find",
-    "desc-ko": "아이콘, SQL 기록 찾기",
-    "name-en": "icon-sql-history-find",
-    "desc-en": "icon sql history find"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "icon-sql-history-modify-group",
-    "desc-ko": "아이콘, SQL 기록 그룹 수정",
-    "name-en": "icon-sql-history-modify-group",
-    "desc-en": "icon sql history modify group"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "icon-sql-history-modify-sql",
-    "desc-ko": "아이콘, SQL 기록 SQL 수정",
-    "name-en": "icon-sql-history-modify-sql",
-    "desc-en": "icon sql history modify sql"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "icon-sql-history-move-group",
-    "desc-ko": "아이콘, SQL 기록 그룹 이동",
-    "name-en": "icon-sql-history-move-group",
-    "desc-en": "icon sql history move group"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "icon-sql-history-new-group",
-    "desc-ko": "아이콘, SQL 기록 새 그룹",
-    "name-en": "icon-sql-history-new-group",
-    "desc-en": "icon sql history new group"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "icon-sql-history-new-sql",
-    "desc-ko": "아이콘, SQL 기록 SQL 추가",
-    "name-en": "icon-sql-history-new-sql",
-    "desc-en": "icon sql history new sql"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "icon-sql-history-open-file",
-    "desc-ko": "아이콘, SQL 기록 파일 열기",
-    "name-en": "icon-sql-history-open-file",
-    "desc-en": "icon sql history open file"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "icon-sql-history-replace-in-editor",
-    "desc-ko": "아이콘, SQL 기록 편집기에서 바꾸기",
-    "name-en": "icon-sql-history-replace-in-editor",
-    "desc-en": "icon sql history replace in editor"
-  },
-  {
-    "category": "SQL편집기",
-    "folder": "SQLEditor",
-    "name-ko": "icon-sql-history-save-to-file",
-    "desc-ko": "아이콘, SQL 기록 파일로 저장",
-    "name-en": "icon-sql-history-save-to-file",
-    "desc-en": "icon sql history save to file"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "use-table-autocomplete-ko",
-    "desc-ko": "SQL 에디터에서 테이블 자동완성",
-    "name-en": "use-table-autocomplete-en",
-    "desc-en": "Use Table AutoComplete"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "use-table-autocomplete-choice-object-ko",
-    "desc-ko": "SQL 에디터에서 테이블 자동완성 목록 특정 오브젝트 선택",
-    "name-en": "use-table-autocomplete-choice-object-en",
-    "desc-en": "Use Table AutoComplete choose object"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "use-field-autocomplete-ko",
-    "desc-ko": "SQL 에디터에서 컬럼 자동완성",
-    "name-en": "use-field-autocomplete-en",
-    "desc-en": "Use Field AutoComplete"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "use-code-template-autocomplete-ko",
-    "desc-ko": "SQL 에디터에서 코드 템플릿 자동완성",
-    "name-en": "use-code-template-autocomplete-en",
-    "desc-en": "Use Code AutoComplete"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "use-code-template-autocomplete-result-ko",
-    "desc-ko": "SQL 에디터에서 코드 템플릿 자동완성 실행 결과",
-    "name-en": "use-code-template-autocomplete-result-en",
-    "desc-en": "Use Code AutoComplete result"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "use-code-template-customize-ko",
-    "desc-ko": "SQL 에디터에서 코드 템플릿 사용자화 하기",
-    "name-en": "use-code-template-customize-en",
-    "desc-en": "Use Code AutoComplete customize"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "align-query-statements-01-ko",
-    "desc-ko": "SQL맞춤",
-    "name-en": "align-query-statements-01-en",
-    "desc-en": "Align Query Statements"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "align-query-statements-02-ko",
-    "desc-ko": "SQL맞춤 결과",
-    "name-en": "align-query-statements-02-en",
-    "desc-en": "Align Query Statements"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "align-query-statements-03-ko",
-    "desc-ko": "SQL맞춤 옵션",
-    "name-en": "align-query-statements-03-en",
-    "desc-en": "Align Query Statements"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "change-query-result-view-01-ko",
-    "desc-ko": "쿼리 결과 창을 가로/세로 전환하기 가로보기",
-    "name-en": "change-query-result-view-01-en",
-    "desc-en": "Change Query Result Window View Horizontally/Vertically"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "change-query-result-view-02-ko",
-    "desc-ko": "쿼리 결과 창을 가로/세로 전환하기 세로보기",
-    "name-en": "change-query-result-view-02-en",
-    "desc-en": "Change Query Result Window View Horizontally/Vertically"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "change-query-result-view-03-ko",
-    "desc-ko": "여러개의 쿼리 결과 창을 가로/세로 전환하기 위에서 부터",
-    "name-en": "change-query-result-view-03-en",
-    "desc-en": "Change Query Result Window View Horizontally/Vertically"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "change-query-result-view-04-ko",
-    "desc-ko": "여러개의 쿼리 결과 창을 가로/세로 전환하기 좌에서 부터",
-    "name-en": "change-query-result-view-04-en",
-    "desc-en": "Change Query Result Window View Horizontally/Vertically"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "display-two-SQL-editor-01-ko",
-    "desc-ko": "SQL편집기 창을 두개로 보기 좌우로 분할",
-    "name-en": "display-two-SQL-editor-01-en",
-    "desc-en": "Display Two SQL Editor Windows"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "display-two-SQL-editor-02-ko",
-    "desc-ko": "SQL편집기 창을 두개로 보기 위아래로 분할",
-    "name-en": "display-two-SQL-editor-02-en",
-    "desc-en": "Display Two SQL Editor Windows"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "add-tab-editor-ko",
-    "desc-ko": "편집기 창 탭 추가하여 SQL 실행하기",
-    "name-en": "add-tab-editor-en",
-    "desc-en": "Add an Editor Tab and Run SQL"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "add-tab-editor-option-ko",
-    "desc-ko": "편집기 창의 탭 여러 개 추가하기",
-    "name-en": "add-tab-editor-option-en",
-    "desc-en": "Add Multiple Tabs on Editor Window"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "bookmark-shortcut-01-ko",
-    "desc-ko": "책갈피로 바로 가기",
-    "name-en": "bookmark-shortcut-01-en",
-    "desc-en": "Bookmark Shortcut"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "bookmark-shortcut-02-ko",
-    "desc-ko": "책갈피로 바로 가기",
-    "name-en": "bookmark-shortcut-02-en",
-    "desc-en": "Bookmark Shortcut"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "close-all-tab-ko",
-    "desc-ko": "현재 창 이외에 모두 닫기",
-    "name-en": "close-all-tab-en",
-    "desc-en": "Close All But This"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "comment-block-01-ko",
-    "desc-ko": "SQL 구문 주석 한 번에 추가하기",
-    "name-en": "comment-block-01-en",
-    "desc-en": "Add SQL Comment At Once"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "comment-block-02-ko",
-    "desc-ko": "SQL 구문 주석 한 번에 추가하기",
-    "name-en": "comment-block-02-en",
-    "desc-en": "Add SQL Comment At Once"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "comment-block-remove-01-ko",
-    "desc-ko": "SQL 구문 주석 한 번에 해제하기",
-    "name-en": "comment-block-remove-01-en",
-    "desc-en": "Uncomment SQL At Once"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "comment-block-remove-02-ko",
-    "desc-ko": "SQL 구문 주석 한 번에 해제하기",
-    "name-en": "comment-block-remove-02-en",
-    "desc-en": "Uncomment SQL At Once"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "convert-SQL-java-codes-ko",
-    "desc-ko": "SQL을 Java 코드로 변환하기",
-    "name-en": "convert-SQL-java-codes-en",
-    "desc-en": "Convert SQL to Java Codes"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "convert-SQL-java-codes-view",
-    "desc-ko": "SQL을 Java 코드로 변환하기",
-    "name-en": "convert-SQL-java-codes-view",
-    "desc-en": "Convert SQL to Java Codes"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "create-separate-window-query-result-ko",
-    "desc-ko": "편집기 창과 그리드 분리하기",
-    "name-en": "create-separate-window-query-result-en",
-    "desc-en": "Create a Separate Window for Editor and Grid"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "extract-SQL-from-java-result-ko",
-    "desc-ko": "Java 코드에서 SQL 추출하기",
-    "name-en": "extract-SQL-from-java-result-en",
-    "desc-en": "Extract SQL from Java"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "extract-SQL-from-java",
-    "desc-ko": "Java 코드에서 SQL 추출하기",
-    "name-en": "extract-SQL-from-java",
-    "desc-en": "Extract SQL from Java"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "relocate-editor-window-grid-ko",
-    "desc-ko": "편집기 창과 그리드 위치 재정렬 하기",
-    "name-en": "relocate-editor-window-grid-en",
-    "desc-en": "Relocate Editor Window and Grid"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "view-editor-only-ko",
-    "desc-ko": "편집기 창만 보기",
-    "name-en": "view-editor-only-en",
-    "desc-en": "View Editor Only"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "view-table-data-right-away-ko",
-    "desc-ko": "테이블 데이터 바로 보기",
-    "name-en": "view-table-data-right-away-en",
-    "desc-en": "View Table Data Right Away"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "view-table-infomation-ko",
-    "desc-ko": "테이블 전체 정보 바로 보기",
-    "name-en": "view-table-infomation-en",
-    "desc-en": "Get Full Table Information"
-  },
-  {
-    "category": "SQL편집기세부기능",
-    "folder": "SQLEditorAdvanced",
-    "name-ko": "view-table-schema-right-away-ko",
-    "desc-ko": "테이블 스키마 바로 보기",
-    "name-en": "view-table-schema-right-away-en",
-    "desc-en": "View Table Schema Right Away"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "execution-plan-aflow-chart-ko",
-    "desc-ko": "SQL 실행계획 플로우 차트로 보기",
-    "name-en": "execution-plan-aflow-chart-en",
-    "desc-en":
-      "On the Flow Chart tab, check if the Flow Chart has correctly been created ."
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "execution-plan-block-ko",
-    "desc-ko": "블록 SQL 실행 계획으로 실행하기 하기",
-    "name-en": "execution-plan-block-en",
-    "desc-en": "Run Using Execution Plan of Block SQL"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "execution-plan-ko",
-    "desc-ko": "SQL 실행 계획을 실행하고 인덱스 확인하기",
-    "name-en": "execution-plan-en",
-    "desc-en": "Run SQL Execution Plan and Check Index"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "execution-plan-text-ko",
-    "desc-ko": "SQL 실행계획 텍스트로 보기",
-    "name-en": "execution-plan-text-en",
-    "desc-en": "Execution Plan text"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-addEditor",
-    "desc-ko": "편집기 추가",
-    "name-en": "icon-sql-editor-addEditor",
-    "desc-en": "Add Editor"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-autocompleteDisable",
-    "desc-ko": "편집기 자동완성 사용안함",
-    "name-en": "icon-sql-editor-autocompleteDisable",
-    "desc-en": "Disable Autocomplate"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-autocompleteRefresh",
-    "desc-ko": "편집기 자동완성 캐쉬 새로고침",
-    "name-en": "icon-sql-editor-autocompleteRefresh",
-    "desc-en": "Refresh Autocomplate cache data"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-awrReport",
-    "desc-ko": "AWR 리포트 보기",
-    "name-en": "icon-sql-editor-awrReport",
-    "desc-en": "AWR Report"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-blockSQLExecutionPlan",
-    "desc-ko": "실행계획 보기",
-    "name-en": "icon-sql-editor-blockSQLExecutionPlan",
-    "desc-en": "Run Execution plan"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-capitalize",
-    "desc-ko": "첫글자를 대문자로",
-    "name-en": "icon-sql-editor-capitalize",
-    "desc-en": "Capitalize"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-changeCase",
-    "desc-ko": "대소문자 바꾸기",
-    "name-en": "icon-sql-editor-changeCase",
-    "desc-en": "Change Case"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-clearAll",
-    "desc-ko": "에디터 비우기",
-    "name-en": "icon-sql-editor-clearAll",
-    "desc-en": "Clear ALL"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-commentBlock",
-    "desc-ko": "주석 달기",
-    "name-en": "icon-sql-editor-commentBlock",
-    "desc-en": "Comment Block"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-copy",
-    "desc-ko": "복사하기",
-    "name-en": "icon-sql-editor-copy",
-    "desc-en": "Copy"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-copyEditor",
-    "desc-ko": "에디터 복사하기",
-    "name-en": "icon-sql-editor-copyEditor",
-    "desc-en": "Copy Editor"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-cut",
-    "desc-ko": "잘라내기",
-    "name-en": "icon-sql-editor-cut",
-    "desc-en": "Cut"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-delete",
-    "desc-ko": "삭제하기",
-    "name-en": "icon-sql-editor-delete",
-    "desc-en": "Delete"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-executionStatistic",
-    "desc-ko": "실행계획 통계",
-    "name-en": "icon-sql-editor-executionStatistic",
-    "desc-en": "Execution plan statistic"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-find",
-    "desc-ko": "찾기",
-    "name-en": "icon-sql-editor-find",
-    "desc-en": "Find"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-findAll",
-    "desc-ko": "모두찾기",
-    "name-en": "icon-sql-editor-findAll",
-    "desc-en": "Find all"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-findFirst",
-    "desc-ko": "처음부터 찾기",
-    "name-en": "icon-sql-editor-findFirst",
-    "desc-en": "Find first"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-findLast",
-    "desc-ko": "마지막 찾기",
-    "name-en": "icon-sql-editor-findLast",
-    "desc-en": "Find last"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-findNext",
-    "desc-ko": "다음 찾기",
-    "name-en": "icon-sql-editor-findNext",
-    "desc-en": "Find next"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-gotoLine",
-    "desc-ko": "줄이동",
-    "name-en": "icon-sql-editor-gotoLine",
-    "desc-en": "Goto line"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-indent",
-    "desc-ko": "들여쓰기",
-    "name-en": "icon-sql-editor-indent",
-    "desc-en": "Indent"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-lowercase",
-    "desc-ko": "소문자로 바꾸기",
-    "name-en": "icon-sql-editor-lowercase",
-    "desc-en": "Lowercase"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-moveTabToRight",
-    "desc-ko": "결과창 오른쪽으로 보기",
-    "name-en": "icon-sql-editor-moveTabToRight",
-    "desc-en": "Move tab to right"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-nextEditor",
-    "desc-ko": "다음 편집기",
-    "name-en": "icon-sql-editor-nextEditor",
-    "desc-en": "Next editor"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-openFile",
-    "desc-ko": "파일 열기",
-    "name-en": "icon-sql-editor-openFile",
-    "desc-en": "Open file"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-outdent",
-    "desc-ko": "내어쓰기",
-    "name-en": "icon-sql-editor-outdent",
-    "desc-en": "Outdent"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-paste",
-    "desc-ko": "붙여넣기",
-    "name-en": "icon-sql-editor-paste",
-    "desc-en": "Paste"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-pasteFromTheCode",
-    "desc-ko": "코드에서 붙여넣지",
-    "name-en": "icon-sql-editor-pasteFromTheCode",
-    "desc-en": "Paste from the code"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-previousEditor",
-    "desc-ko": "이전 편집기",
-    "name-en": "icon-sql-editor-previousEditor",
-    "desc-en": "Previouse Editor"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-printPreview",
-    "desc-ko": "인쇄 미리보기",
-    "name-en": "icon-sql-editor-printPreview",
-    "desc-en": "Print preview"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-queryDescription",
-    "desc-ko": "쿼리 설명",
-    "name-en": "icon-sql-editor-queryDescription",
-    "desc-en": "Query description"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-redo",
-    "desc-ko": "재실행",
-    "name-en": "icon-sql-editor-redo",
-    "desc-en": "Redo"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-removeEditor",
-    "desc-ko": "에디터 제거하기",
-    "name-en": "icon-sql-editor-removeEditor",
-    "desc-en": "Remove editor"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-replace",
-    "desc-ko": "바꾸기",
-    "name-en": "icon-sql-editor-replace",
-    "desc-en": "Replace"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-runCurrentSQL",
-    "desc-ko": "현재 SQL문자 실행",
-    "name-en": "icon-sql-editor-runCurrentSQL",
-    "desc-en": "Run current SQL"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-runCurrentSQLActualEstimateExecutionPlan",
-    "desc-ko": "실행계획",
-    "name-en": "icon-sql-editor-runCurrentSQLActualEstimateExecutionPlan",
-    "desc-en": "Run Current SQL Actual Estimate Execution Plan"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-runCurrentSQLEstimateExecutionPlan",
-    "desc-ko": "실행계획",
-    "name-en": "icon-sql-editor-runCurrentSQLEstimateExecutionPlan",
-    "desc-en": "Run Current SQL Estimate Execution Plan"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-runCurrentSQLExecutionPlan",
-    "desc-ko": "실행계획",
-    "name-en": "icon-sql-editor-runCurrentSQLExecutionPlan",
-    "desc-en": "Run Current SQL Execution Plan"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-runSQL",
-    "desc-ko": "SQL 실행",
-    "name-en": "icon-sql-editor-runSQL",
-    "desc-en": "Run SQL"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-save",
-    "desc-ko": "저장하기",
-    "name-en": "icon-sql-editor-save",
-    "desc-en": "Save"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-saveAs",
-    "desc-ko": "다른이름으로 저장하기",
-    "name-en": "icon-sql-editor-saveAs",
-    "desc-en": "Save as"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-selectAll",
-    "desc-ko": "전체선택",
-    "name-en": "icon-sql-editor-selectAll",
-    "desc-en": "Select all"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-sessionStatistic",
-    "desc-ko": "세션 통계",
-    "name-en": "icon-sql-editor-sessionStatistic",
-    "desc-en": "Session statistic"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-setBackgroundColor",
-    "desc-ko": "배경 색 변경",
-    "name-en": "icon-sql-editor-setBackgroundColor",
-    "desc-en": "Set Background Color"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-showBlankTabReturn",
-    "desc-ko": "탭 공백 리턴 문자보기",
-    "name-en": "icon-sql-editor-showBlankTabReturn",
-    "desc-en": "Show blank, tab, Return"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-SQLAlignment",
-    "desc-ko": "SQL맞춤",
-    "name-en": "icon-sql-editor-SQLAlignment",
-    "desc-en": "SQL Alignment"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-SQLAlignmentOptions",
-    "desc-ko": "SQL맞춤 옵션",
-    "name-en": "icon-sql-editor-SQLAlignmentOptions",
-    "desc-en": "SQL Alignment Options"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-SQLConvert",
-    "desc-ko": "SQL문장을 코드로 변환하기",
-    "name-en": "icon-sql-editor-SQLConvert",
-    "desc-en": "SQL Convert"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-SQLHistory",
-    "desc-ko": "SQL기록",
-    "name-en": "icon-sql-editor-SQLHistory",
-    "desc-en": "SQL History"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-SQLTrace",
-    "desc-ko": "SQL추적하기",
-    "name-en": "icon-sql-editor-SQLTrace",
-    "desc-en": "SQL Trace"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-SQLTuningAdvisor",
-    "desc-ko": "SQL튜닝",
-    "name-en": "icon-sql-editor-SQLTuningAdvisor",
-    "desc-en": "SQL Tuning Advisor"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-stop",
-    "desc-ko": "중지",
-    "name-en": "icon-sql-editor-stop",
-    "desc-en": "Stop"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-runAndModifyCurrentSQL",
-    "desc-ko": "현재쿼리 실행 및 수정",
-    "name-en": "icon-sql-editor-runAndModifyCurrentSQL",
-    "desc-en": "Run current SQL and modify the data on the grid."
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-subQueryBlock",
-    "desc-ko": "하위쿼리 블록 실행",
-    "name-en": "icon-sql-editor-subQueryBlock",
-    "desc-en": "Run the SubQuery block."
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-toggleFolding",
-    "desc-ko": "접기 설정/해제",
-    "name-en": "icon-sql-editor-toggleFolding",
-    "desc-en": "Toggle folding."
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-uncommentBlock",
-    "desc-ko": "블록주석 제거",
-    "name-en": "icon-sql-editor-uncommentBlock",
-    "desc-en": "Uncomment block"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-undo",
-    "desc-ko": "실행 취소",
-    "name-en": "icon-sql-editor-undo",
-    "desc-en": "Undo"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-uppercase",
-    "desc-ko": "대문자로 변경하기",
-    "name-en": "icon-sql-editor-uppercase",
-    "desc-en": "Uppercase"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-useBindVariable",
-    "desc-ko": "바인드 변수 사용",
-    "name-en": "icon-sql-editor-useBindVariable",
-    "desc-en": "Use bind variables"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-useSubstitutionVariable",
-    "desc-ko": "대체 변수 사용",
-    "name-en": "icon-sql-editor-useSubstitutionVariable",
-    "desc-en": "Use Substitution variables"
-  },
-  {
-    "category": "실행계획",
-    "folder": "executionPlan",
-    "name-ko": "icon-sql-editor-wordWrap",
-    "desc-ko": "자동 줄 바꿈 설정/해제",
-    "name-en": "icon-sql-editor-wordWrap",
-    "desc-en": "Word wrap"
-  },
-  {
-    "category": "DBMS_OUTPUT",
-    "folder": "DBMS_OUTPUT",
-    "name-ko": "dbmsoutput-plsql-editor",
-    "desc-ko": "DBMS_OUTPUT view",
-    "name-en": "dbmsoutput-plsql-editor",
-    "desc-en": "DBMS_OUTPUT view"
-  },
-  {
-    "category": "DBMS_OUTPUT",
-    "folder": "DBMS_OUTPUT",
-    "name-ko": "icon-sql-editor-clearOutput",
-    "desc-ko": "Clears off the output.",
-    "name-en": "icon-sql-editor-clearOutput",
-    "desc-en": "Clears off the output."
-  },
-  {
-    "category": "DBMS_OUTPUT",
-    "folder": "DBMS_OUTPUT",
-    "name-ko": "icon-sql-editor-refreshDBMSOutput",
-    "desc-ko": "Refreshes the result.",
-    "name-en": "icon-sql-editor-refreshDBMSOutput",
-    "desc-en": "Refreshes the result."
-  },
-  {
-    "category": "DBMS_OUTPUT",
-    "folder": "DBMS_OUTPUT",
-    "name-ko": "icon-sql-editor-saveAsFile",
-    "desc-ko": "Saves the result as set file type.",
-    "name-en": "icon-sql-editor-saveAsFile",
-    "desc-en": "Saves the result as set file type."
-  },
-  {
-    "category": "DBMS_OUTPUT",
-    "folder": "DBMS_OUTPUT",
-    "name-ko": "icon-sql-editor-setBufferSize",
-    "desc-ko":
-      "Set the size of DBMS OUTPUT buffer. Oracle databases support from 2KB to 1MB. The default is set to 10000KB.",
-    "name-en": "icon-sql-editor-setBufferSize",
-    "desc-en":
-      "Set the size of DBMS OUTPUT buffer. Oracle databases support from 2KB to 1MB. The default is set to 10000KB."
-  },
-  {
-    "category": "DBMS_OUTPUT",
-    "folder": "DBMS_OUTPUT",
-    "name-ko": "icon-sql-editor-turnOffDBMSOutput",
-    "desc-ko": "Enables/disables DBMS OUTPUT.",
-    "name-en": "icon-sql-editor-turnOffDBMSOutput",
-    "desc-en": "Enables/disables DBMS OUTPUT."
-  },
-  {
-    "category": "프로시저",
-    "folder": "precedure",
-    "name-ko": "precedure-recompile-01",
-    "desc-ko": "Procedure Recompile Objects",
-    "name-en": "precedure-recompile-01",
-    "desc-en": "Procedure Recompile Objects"
-  },
-  {
-    "category": "프로시저",
-    "folder": "precedure",
-    "name-ko": "precedure-recompile-02",
-    "desc-ko": "Procedure Recompile Objects",
-    "name-en": "precedure-recompile-02",
-    "desc-en": "Procedure Recompile Objects"
-  },
-  {
-    "category": "프로시저",
-    "folder": "precedure",
-    "name-ko": "precedure-recompile-03",
-    "desc-ko": "Procedure Recompile Objects",
-    "name-en": "precedure-recompile-03",
-    "desc-en": "Procedure Recompile Objects"
-  },
-  {
-    "category": "프로시저",
-    "folder": "precedure",
-    "name-ko": "precedure-recompile-04",
-    "desc-ko": "Procedure Recompile Objects",
-    "name-en": "precedure-recompile-04",
-    "desc-en": "Procedure Recompile Objects"
-  },
-  {
-    "category": "프로시저",
-    "folder": "precedure",
-    "name-ko": "procedure-check-result-01",
-    "desc-ko": "Run Procedure and Check The Result Value",
-    "name-en": "procedure-check-result-01",
-    "desc-en": "Run Procedure and Check The Result Value"
-  },
-  {
-    "category": "프로시저",
-    "folder": "precedure",
-    "name-ko": "procedure-check-result-02",
-    "desc-ko": "Run Procedure and Check The Result Value",
-    "name-en": "procedure-check-result-02",
-    "desc-en": "Run Procedure and Check The Result Value"
-  },
-  {
-    "category": "프로시저",
-    "folder": "precedure",
-    "name-ko": "procedure-check-result-03",
-    "desc-ko": "Run Procedure and Check The Result Value",
-    "name-en": "procedure-check-result-03",
-    "desc-en": "Run Procedure and Check The Result Value"
-  },
-  {
-    "category": "프로시저",
-    "folder": "precedure",
-    "name-ko": "procedure-compile-find-error",
-    "desc-ko": "Find Error in Procedure and Compile",
-    "name-en": "procedure-compile-find-error",
-    "desc-en": "Find Error in Procedure and Compile"
-  },
-  {
-    "category": "프로시저",
-    "folder": "precedure",
-    "name-ko": "procedure-view-version",
-    "desc-ko": "View Version While Coding Procedure",
-    "name-en": "procedure-view-version",
-    "desc-en": "View Version While Coding Procedure"
-  },
-  {
-    "category": "프로시저",
-    "folder": "precedure",
-    "name-ko": "procedures-autocomplete",
-    "desc-ko": "Use Code AutoComplete to Type Less Codes",
-    "name-en": "procedures-autocomplete",
-    "desc-en": "Use Code AutoComplete to Type Less Codes"
-  },
-  {
-    "category": "쿼리빌더",
-    "folder": "query-builder",
-    "name-ko": "queryBuilder-add-column-01",
-    "desc-ko": "Add Column on Query Builder",
-    "name-en": "queryBuilder-add-column-01",
-    "desc-en": "Add Column on Query Builder"
-  },
-  {
-    "category": "쿼리빌더",
-    "folder": "query-builder",
-    "name-ko": "queryBuilder-add-column-02",
-    "desc-ko": "Add Column on Query Builder",
-    "name-en": "queryBuilder-add-column-02",
-    "desc-en": "Add Column on Query Builder"
-  },
-  {
-    "category": "쿼리빌더",
-    "folder": "query-builder",
-    "name-ko": "queryBuilder-add-delete-table-01",
-    "desc-ko": "Add or Delete Query Builder Table",
-    "name-en": "queryBuilder-add-delete-table-01",
-    "desc-en": "Add or Delete Query Builder Table"
-  },
-  {
-    "category": "쿼리빌더",
-    "folder": "query-builder",
-    "name-ko": "queryBuilder-add-delete-table-02",
-    "desc-ko": "Add or Delete Query Builder Table",
-    "name-en": "queryBuilder-add-delete-table-02",
-    "desc-en": "Add or Delete Query Builder Table"
-  },
-  {
-    "category": "쿼리빌더",
-    "folder": "query-builder",
-    "name-ko": "queryBuilder-create-join-01",
-    "desc-ko": "Create JOIN Between Tables",
-    "name-en": "queryBuilder-create-join-01",
-    "desc-en": "Create JOIN Between Tables"
-  },
-  {
-    "category": "쿼리빌더",
-    "folder": "query-builder",
-    "name-ko": "queryBuilder-create-join-02",
-    "desc-ko": "Create JOIN Between Tables",
-    "name-en": "queryBuilder-create-join-02",
-    "desc-en": "Create JOIN Between Tables"
-  },
-  {
-    "category": "쿼리빌더",
-    "folder": "query-builder",
-    "name-ko": "queryBuilder-create-join-03",
-    "desc-ko": "Create JOIN Between Tables",
-    "name-en": "queryBuilder-create-join-03",
-    "desc-en": "Create JOIN Between Tables"
-  },
-  {
-    "category": "쿼리빌더",
-    "folder": "query-builder",
-    "name-ko": "queryBuilder-create-join-04",
-    "desc-ko": "Create JOIN Between Tables",
-    "name-en": "queryBuilder-create-join-04",
-    "desc-en": "Create JOIN Between Tables"
-  },
-  {
-    "category": "데이터그리드",
-    "folder": "datagrid",
-    "name-ko": "datagrid-addColumnNameOnTheEditor",
-    "desc-ko": "View Data Horizontally/Vertically",
-    "name-en": "datagrid-addColumnNameOnTheEditor",
-    "desc-en": "View Data Horizontally/Vertically"
-  },
-  {
-    "category": "데이터그리드",
-    "folder": "datagrid",
-    "name-ko": "datagrid-addModifyClipboardData-01",
-    "desc-ko": "Add/Modify Clipboard Data on the Grid",
-    "name-en": "datagrid-addModifyClipboardData-01",
-    "desc-en": "Add/Modify Clipboard Data on the Grid"
-  },
-  {
-    "category": "데이터그리드",
-    "folder": "datagrid",
-    "name-ko": "datagrid-addModifyClipboardData",
-    "desc-ko": "Add/Modify Clipboard Data on the Grid",
-    "name-en": "datagrid-addModifyClipboardData",
-    "desc-en": "Add/Modify Clipboard Data on the Grid"
-  },
-  {
-    "category": "데이터그리드",
-    "folder": "datagrid",
-    "name-ko": "datagrid-copySelectedCells",
-    "desc-ko": "Copy Selected Cell",
-    "name-en": "datagrid-copySelectedCells",
-    "desc-en": "Copy Selected Cell"
-  },
-  {
-    "category": "데이터그리드",
-    "folder": "datagrid",
-    "name-ko": "datagrid-createInSystax-01",
-    "desc-ko": "Auto-create IN syntax",
-    "name-en": "datagrid-createInSystax-01",
-    "desc-en": "Auto-create IN syntax"
-  },
-  {
-    "category": "데이터그리드",
-    "folder": "datagrid",
-    "name-ko": "datagrid-createInSystax",
-    "desc-ko": "Auto-create IN syntax",
-    "name-en": "datagrid-createInSystax",
-    "desc-en": "Auto-create IN syntax"
-  },
-  {
-    "category": "데이터그리드",
-    "folder": "datagrid",
-    "name-ko": "datagrid-operateSelectedCell",
-    "desc-ko": "Operate Selected Cell",
-    "name-en": "datagrid-operateSelectedCell",
-    "desc-en": "Operate Selected Cell"
-  },
-  {
-    "category": "데이터그리드",
-    "folder": "datagrid",
-    "name-ko": "datagrid-pinSelectedColumn",
-    "desc-ko": "Fix the Selected Column",
-    "name-en": "datagrid-pinSelectedColumn",
-    "desc-en": "Fix the Selected Column"
-  },
-  {
-    "category": "데이터그리드",
-    "folder": "datagrid",
-    "name-ko": "datagrid-saveResultAsExcel",
-    "desc-ko": "Save Results as Excel",
-    "name-en": "datagrid-saveResultAsExcel",
-    "desc-en": "Save Results as Excel"
-  },
-  {
-    "category": "데이터그리드",
-    "folder": "datagrid",
-    "name-ko": "datagrid-selectMultipleCells",
-    "desc-ko": "Select Multiple Cells",
-    "name-en": "datagrid-selectMultipleCells",
-    "desc-en": "Select Multiple Cells"
-  },
-  {
-    "category": "데이터그리드",
-    "folder": "datagrid",
-    "name-ko": "datagrid-sortSelectedColumn-01",
-    "desc-ko": "Sort Selected Columns",
-    "name-en": "datagrid-sortSelectedColumn-01",
-    "desc-en": "Sort Selected Columns"
-  },
-  {
-    "category": "데이터그리드",
-    "folder": "datagrid",
-    "name-ko": "datagrid-sortSelectedColumn-02",
-    "desc-ko": "Sort Selected Columns",
-    "name-en": "datagrid-sortSelectedColumn-02",
-    "desc-en": "Sort Selected Columns"
-  },
-  {
-    "category": "데이터그리드",
-    "folder": "datagrid",
-    "name-ko": "datagrid-sortSelectedColumn",
-    "desc-ko": "Sort Selected Columns",
-    "name-en": "datagrid-sortSelectedColumn",
-    "desc-en": "Sort Selected Columns"
-  },
-  {
-    "category": "데이터그리드",
-    "folder": "datagrid",
-    "name-ko": "datagrid-viewDataHorizontallyVertically-01",
-    "desc-ko": "View Data Horizontally/Vertically",
-    "name-en": "datagrid-viewDataHorizontallyVertically-01",
-    "desc-en": "View Data Horizontally/Vertically"
-  },
-  {
-    "category": "데이터그리드",
-    "folder": "datagrid",
-    "name-ko": "datagrid-viewDataHorizontallyVertically",
-    "desc-ko": "View Data Horizontally/Vertically",
-    "name-en": "datagrid-viewDataHorizontallyVertically",
-    "desc-en": "View Data Horizontally/Vertically"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "object-searchPanel",
-    "desc-ko": "Search for Object",
-    "name-en": "object-searchPanel",
-    "desc-en": "Search for Object"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "object-searchPanelDetail",
-    "desc-ko": "Check details of the searched objects.",
-    "name-en": "object-searchPanelDetail",
-    "desc-en": "Check details of the searched objects."
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "object-searchPanelDetailData",
-    "desc-ko": "Change Data Value on Field",
-    "name-en": "object-searchPanelDetailData",
-    "desc-en": "Change Data Value on Field"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "objectExplorer-alwaysOnTop",
-    "desc-ko": "Object Tabs in Object Explorer",
-    "name-en": "objectExplorer-alwaysOnTop",
-    "desc-en": "Object Tabs in Object Explorer"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "objectPanel-filter-01",
-    "desc-ko": "Filter Objects",
-    "name-en": "objectPanel-filter-01",
-    "desc-en": "Filter Objects"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "objectPanel-filter-02",
-    "desc-ko": "Filter Objects",
-    "name-en": "objectPanel-filter-02",
-    "desc-en": "Filter Objects"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "objectPanel-filter-03",
-    "desc-ko": "Filter Objects",
-    "name-en": "objectPanel-filter-03",
-    "desc-en": "Filter Objects"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "objectPanel-recycleBin-01",
-    "desc-ko": "how to restore object from the Recycle Bin.",
-    "name-en": "objectPanel-recycleBin-01",
-    "desc-en": "how to restore object from the Recycle Bin."
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "objectPanel-recycleBin-02",
-    "desc-ko": "how to restore object from the Recycle Bin.",
-    "name-en": "objectPanel-recycleBin-02",
-    "desc-en": "how to restore object from the Recycle Bin."
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "objectPanel-recycleBin-03",
-    "desc-ko": "how to restore object from the Recycle Bin.",
-    "name-en": "objectPanel-recycleBin-03",
-    "desc-en": "how to restore object from the Recycle Bin."
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "objectPanel-recycleBin-04",
-    "desc-ko": "how to restore object from the Recycle Bin.",
-    "name-en": "objectPanel-recycleBin-04",
-    "desc-en": "how to restore object from the Recycle Bin."
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-add",
-    "desc-ko": "add/new, icon",
-    "name-en": "icon-object-add",
-    "desc-en": "add/new, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-analyze",
-    "desc-ko": "analyze, icon",
-    "name-en": "icon-object-analyze",
-    "desc-en": "analyze, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-compileRebuild",
-    "desc-ko": "compile/rebuild, icon",
-    "name-en": "icon-object-compileRebuild",
-    "desc-en": "compile/rebuild, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-debug",
-    "desc-ko": "debug, icon",
-    "name-en": "icon-object-debug",
-    "desc-en": "debug, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-delete",
-    "desc-ko": "delete, icon",
-    "name-en": "icon-object-delete",
-    "desc-en": "delete, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-descriptionPane",
-    "desc-ko": "description pane, icon",
-    "name-en": "icon-object-descriptionPane",
-    "desc-en": "description pane, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-disable",
-    "desc-ko": "disable, icon",
-    "name-en": "icon-object-disable",
-    "desc-en": "disable, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-editComment",
-    "desc-ko": "edit comment, icon",
-    "name-en": "icon-object-editComment",
-    "desc-en": "edit comment, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-empty",
-    "desc-ko": "empty, icon",
-    "name-en": "icon-object-empty",
-    "desc-en": "empty, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-enable",
-    "desc-ko": "enable, icon",
-    "name-en": "icon-object-enable",
-    "desc-en": "enable, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-execute",
-    "desc-ko": "execute, icon",
-    "name-en": "icon-object-execute",
-    "desc-en": "execute, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-exportData",
-    "desc-ko": "export data, icon",
-    "name-en": "icon-object-exportData",
-    "desc-en": "export data, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-filter",
-    "desc-ko": "filter, icon",
-    "name-en": "icon-object-filter",
-    "desc-en": "filter, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-importData",
-    "desc-ko": "import data, icon",
-    "name-en": "icon-object-importData",
-    "desc-en": "import data, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-modify",
-    "desc-ko": "new synonym, icon",
-    "name-en": "icon-object-modify",
-    "desc-en": "new synonym, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-newSynonym",
-    "desc-ko": "refresh, icon",
-    "name-en": "icon-object-newSynonym",
-    "desc-en": "refresh, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-refresh",
-    "desc-ko": "refresh, icon",
-    "name-en": "icon-object-refresh",
-    "desc-en": "refresh, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-restore",
-    "desc-ko": "restore, icon",
-    "name-en": "icon-object-restore",
-    "desc-en": "restore, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-sqlEditor",
-    "desc-ko": "sql editor, icon",
-    "name-en": "icon-object-sqlEditor",
-    "desc-en": "sql editor, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-test",
-    "desc-ko": "test, icon",
-    "name-en": "icon-object-test",
-    "desc-en": "test, icon"
-  },
-  {
-    "category": "개체탐색기",
-    "folder": "objectExplorer",
-    "name-ko": "icon-object-viewEditPrivilege",
-    "desc-ko": "view/edit privilege, icon",
-    "name-en": "icon-object-viewEditPrivilege",
-    "desc-en": "view/edit privilege, icon"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-collectionType-sqlView",
-    "desc-ko": "create Collection Type",
-    "name-en": "create-collectionType-sqlView",
-    "desc-en": "create Collection Type"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-collectionType",
-    "desc-ko": "create Constraints",
-    "name-en": "create-collectionType",
-    "desc-en": "create Constraints"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-constraint",
-    "desc-ko": "create Constraints",
-    "name-en": "create-constraint",
-    "desc-en": "create Constraints"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-databaseLink-sqlView",
-    "desc-ko": "create Database Link",
-    "name-en": "create-databaseLink-sqlView",
-    "desc-en": "create Database Link"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-databaseLink",
-    "desc-ko": "create Database Link",
-    "name-en": "create-databaseLink",
-    "desc-en": "create Database Link"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-index-sqlView",
-    "desc-ko": "create index sql view",
-    "name-en": "create-index-sqlView",
-    "desc-en": "create index sql view"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-index",
-    "desc-ko": "create index",
-    "name-en": "create-index",
-    "desc-en": "create index"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-job",
-    "desc-ko": "create job",
-    "name-en": "create-job",
-    "desc-en": "create job"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-objectType",
-    "desc-ko": "create object type",
-    "name-en": "create-objectType",
-    "desc-en": "create object type"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-PLSQLObject",
-    "desc-ko": "create Procedure/Function/Package",
-    "name-en": "create-PLSQLObject",
-    "desc-en": "create Procedure/Function/Package"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-profile-01",
-    "desc-ko": "create profile",
-    "name-en": "create-profile-01",
-    "desc-en": "create profile"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-profile-02",
-    "desc-ko": "create profile",
-    "name-en": "create-profile-02",
-    "desc-en": "create profile"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-redoLogGroup",
-    "desc-ko": "create Redo Log Group",
-    "name-en": "create-redoLogGroup",
-    "desc-en": "create Redo Log Group"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-role",
-    "desc-ko": "create role",
-    "name-en": "create-role",
-    "desc-en": "create role"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-rollbackSegment",
-    "desc-ko": "create Rollback Segment",
-    "name-en": "create-rollbackSegment",
-    "desc-en": "create Rollback Segment"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-sequence",
-    "desc-ko": "create sequence",
-    "name-en": "create-sequence",
-    "desc-en": "create sequence"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-synonym",
-    "desc-ko": "create synonym",
-    "name-en": "create-synonym",
-    "desc-en": "create synonym"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-table",
-    "desc-ko": "create table",
-    "name-en": "create-table",
-    "desc-en": "create table"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-tableSpace-01",
-    "desc-ko": "create tableSpace",
-    "name-en": "create-tableSpace-01",
-    "desc-en": "create tableSpace"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-tableSpace",
-    "desc-ko": "create tableSpace",
-    "name-en": "create-tableSpace",
-    "desc-en": "create tableSpace"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-trigger",
-    "desc-ko": "create trigger",
-    "name-en": "create-trigger",
-    "desc-en": "create trigger"
-  },
-  {
-    "category": "만들기",
-    "folder": "create",
-    "name-ko": "create-view",
-    "desc-ko": "create view",
-    "name-en": "create-view",
-    "desc-en": "create view"
-  },
-  {
-    "category": "보고서",
-    "folder": "report",
-    "name-ko": "report-design",
-    "desc-ko": "보고서 디자인",
-    "name-en": "report-design",
-    "desc-en": "Design Object Reports"
-  },
-  {
-    "category": "보고서",
-    "folder": "report",
-    "name-ko": "report-exportExcel",
-    "desc-ko": "보고서 엑셀 내보내기",
-    "name-en": "report-exportExcel",
-    "desc-en": "Export Object Reports to Excel"
-  },
-  {
-    "category": "보고서",
-    "folder": "report",
-    "name-ko": "report-exportScript-exportFile",
-    "desc-ko": "SQL스크립트 파일로 내보내기",
-    "name-en": "report-exportScript-exportFile",
-    "desc-en": "Export Table Script"
-  },
-  {
-    "category": "보고서",
-    "folder": "report",
-    "name-ko": "report-exportScript-menu",
-    "desc-ko": "SQL스크립트 보고서",
-    "name-en": "report-exportScript-menu",
-    "desc-en": "Export Table Script"
-  },
-  {
-    "category": "보고서",
-    "folder": "report",
-    "name-ko": "report-exportScript",
-    "desc-ko": "SQL스크립트 보고서",
-    "name-en": "report-exportScript",
-    "desc-en": "Export Table Script"
-  },
-  {
-    "category": "보고서",
-    "folder": "report",
-    "name-ko": "report-menu",
-    "desc-ko": "보고서 메뉴",
-    "name-en": "report-menu",
-    "desc-en": "Design Object Reports"
-  },
-  {
-    "category": "보고서",
-    "folder": "report",
-    "name-ko": "report-preview",
-    "desc-ko": "보고서 미리보기",
-    "name-en": "report-preview",
-    "desc-en": "Object Reports Preview"
-  },
-  {
-    "category": "보고서",
-    "folder": "report",
-    "name-ko": "report-selectSchema",
-    "desc-ko": "보고서 스키마 선택",
-    "name-en": "report-selectSchema",
-    "desc-en": "Select schema and object."
-  },
-  {
-    "category": "매니저",
-    "folder": "manager",
-    "name-ko": "manager-securityManager-grantSystemPrivileges-role",
-    "desc-ko": "Grant System Privileges to Users Role",
-    "name-en": "manager-securityManager-grantSystemPrivileges-role",
-    "desc-en": "Grant System Privileges to Users Role"
-  },
-  {
-    "category": "매니저",
-    "folder": "manager",
-    "name-ko": "manager-securityManager-grantSystemPrivileges-user",
-    "desc-ko": "Grant System Privileges to Users",
-    "name-en": "manager-securityManager-grantSystemPrivileges-user",
-    "desc-en": "Grant System Privileges to Users"
-  },
-  {
-    "category": "매니저",
-    "folder": "manager",
-    "name-ko": "manager-securityManager-grantSystemPrivileges",
-    "desc-ko": "Grant System Privileges to Users",
-    "name-en": "manager-securityManager-grantSystemPrivileges",
-    "desc-en": "Grant System Privileges to Users"
-  },
-  {
-    "category": "매니저",
-    "folder": "manager",
-    "name-ko": "manager-securityManager-newUser",
-    "desc-ko": "Define Roles for New User",
-    "name-en": "manager-securityManager-newUser",
-    "desc-en": "Define Roles for New User"
-  },
-  {
-    "category": "매니저",
-    "folder": "manager",
-    "name-ko": "manager-securityManager-objectPrivilege",
-    "desc-ko": "Define Roles for New User Object Privilege",
-    "name-en": "manager-securityManager-objectPrivilege",
-    "desc-en": "Define Roles for New User Object Privilege"
-  },
-  {
-    "category": "매니저",
-    "folder": "manager",
-    "name-ko": "manager-securityManager-role",
-    "desc-ko": "Define Roles for New User Role",
-    "name-en": "manager-securityManager-role",
-    "desc-en": "Define Roles for New User Role"
-  },
-  {
-    "category": "매니저",
-    "folder": "manager",
-    "name-ko": "manager-securityManager-systemPrivileges",
-    "desc-ko": "Grant/Revoke New User System Privileges",
-    "name-en": "manager-securityManager-systemPrivileges",
-    "desc-en": "Grant/Revoke New User System Privileges"
-  },
-  {
-    "category": "매니저",
-    "folder": "manager",
-    "name-ko": "manager-securityManager-tableSpaceQuota",
-    "desc-ko": "Grant a tablespace quota.",
-    "name-en": "manager-securityManager-tableSpaceQuota",
-    "desc-en": "Grant a tablespace quota."
-  },
-  {
-    "category": "매니저",
-    "folder": "manager",
-    "name-ko": "manager-securityManager",
-    "desc-ko": "Register a New User and Grant Privileges",
-    "name-en": "manager-securityManager",
-    "desc-en": "Register a New User and Grant Privileges"
-  },
-  {
-    "category": "매니저",
-    "folder": "manager",
-    "name-ko": "manager-sessionBrowser-kill",
-    "desc-ko": "View Session Info with Session Browser Kill",
-    "name-en": "manager-sessionBrowser-kill",
-    "desc-en": "View Session Info with Session Browser Kill"
-  },
-  {
-    "category": "매니저",
-    "folder": "manager",
-    "name-ko": "manager-sessionBrowser-trace",
-    "desc-ko": "View Session Info with Session Browser Trace",
-    "name-en": "manager-sessionBrowser-trace",
-    "desc-en": "View Session Info with Session Browser Trace"
-  },
-  {
-    "category": "매니저",
-    "folder": "manager",
-    "name-ko": "manager-sessionBrowser",
-    "desc-ko": "View Session Info with Session Browser",
-    "name-en": "manager-sessionBrowser",
-    "desc-en": "View Session Info with Session Browser"
-  },
-  {
-    "category": "매니저",
-    "folder": "manager",
-    "name-ko": "manager-tableSpaceManager-alterTableSpace-addDataFile",
-    "desc-ko": "Expand Tablespace Using Tablespace Manager Add Data File",
-    "name-en": "manager-tableSpaceManager-alterTableSpace-addDataFile",
-    "desc-en": "Expand Tablespace Using Tablespace Manager Add Data File"
-  },
-  {
-    "category": "매니저",
-    "folder": "manager",
-    "name-ko": "manager-tableSpaceManager-alterTableSpace",
-    "desc-ko": "Expand Tablespace Using Tablespace Manager Alter Tablespace",
-    "name-en": "manager-tableSpaceManager-alterTableSpace",
-    "desc-en": "Expand Tablespace Using Tablespace Manager Alter Tablespace"
-  },
-  {
-    "category": "매니저",
-    "folder": "manager",
-    "name-ko": "manager-tableSpaceManager",
-    "desc-ko": "Expand Tablespace Using Tablespace Manager",
-    "name-en": "manager-tableSpaceManager",
-    "desc-en": "Expand Tablespace Using Tablespace Manager"
-  },
-  {
-    "category": "옵션",
-    "folder": "option",
-    "name-ko": "option-convertSQL",
-    "desc-ko": "option convertSQL",
-    "name-en": "option-convertSQL",
-    "desc-en": "option convertSQL"
-  },
-  {
-    "category": "옵션",
-    "folder": "option",
-    "name-ko": "option-general",
-    "desc-ko": "option general",
-    "name-en": "option-general",
-    "desc-en": "option general"
-  },
-  {
-    "category": "옵션",
-    "folder": "option",
-    "name-ko": "option-grid",
-    "desc-ko": "option grid",
-    "name-en": "option-grid",
-    "desc-en": "option grid"
-  },
-  {
-    "category": "옵션",
-    "folder": "option",
-    "name-ko": "option-objectExplorer",
-    "desc-ko": "option objectExplorer",
-    "name-en": "option-objectExplorer",
-    "desc-en": "option objectExplorer"
-  },
-  {
-    "category": "옵션",
-    "folder": "option",
-    "name-ko": "option-oracleConfiguration",
-    "desc-ko": "option oracleConfiguration",
-    "name-en": "option-oracleConfiguration",
-    "desc-en": "option oracleConfiguration"
-  },
-  {
-    "category": "옵션",
-    "folder": "option",
-    "name-ko": "option-oracleUtilityPath",
-    "desc-ko": "option oracleUtilityPath",
-    "name-en": "option-oracleUtilityPath",
-    "desc-en": "option oracleUtilityPath"
-  },
-  {
-    "category": "옵션",
-    "folder": "option",
-    "name-ko": "option-queryShortcuts",
-    "desc-ko": "option queryShortcuts",
-    "name-en": "option-queryShortcuts",
-    "desc-en": "option queryShortcuts"
-  },
-  {
-    "category": "옵션",
-    "folder": "option",
-    "name-ko": "option-SQLEditor-autoComplete",
-    "desc-ko": "option SQLEditor autoComplete",
-    "name-en": "option-SQLEditor-autoComplete",
-    "desc-en": "option SQLEditor autoComplete"
-  },
-  {
-    "category": "옵션",
-    "folder": "option",
-    "name-ko": "option-SQLEditor-codeTemplate",
-    "desc-ko": "option SQLEditor codeTemplate",
-    "name-en": "option-SQLEditor-codeTemplate",
-    "desc-en": "option SQLEditor codeTemplate"
-  },
-  {
-    "category": "옵션",
-    "folder": "option",
-    "name-ko": "option-SQLEditor-font",
-    "desc-ko": "option SQLEditor font",
-    "name-en": "option-SQLEditor-font",
-    "desc-en": "option SQLEditor font"
-  },
-  {
-    "category": "옵션",
-    "folder": "option",
-    "name-ko": "option-SQLEditor-general",
-    "desc-ko": "option SQLEditor general",
-    "name-en": "option-SQLEditor-general",
-    "desc-en": "option SQLEditor general"
-  },
-  {
-    "category": "옵션",
-    "folder": "option",
-    "name-ko": "option-SQLEditor-highlight",
-    "desc-ko": "option SQLEditor highlight",
-    "name-en": "option-SQLEditor-highlight",
-    "desc-en": "option SQLEditor highlight"
-  },
-  {
-    "category": "옵션",
-    "folder": "option",
-    "name-ko": "option-SQLEditor-keywordTemplate",
-    "desc-ko": "option SQLEditor keywordTemplate",
-    "name-en": "option-SQLEditor-keywordTemplate",
-    "desc-en": "option SQLEditor keywordTemplate"
-  },
-  {
-    "category": "옵션",
-    "folder": "option",
-    "name-ko": "option-SQLEditor",
-    "desc-ko": "option SQLEditor",
-    "name-en": "option-SQLEditor",
-    "desc-en": "option SQLEditor"
-  },
-  {
-    "category": "옵션",
-    "folder": "option",
-    "name-ko": "option-subscription",
-    "desc-ko": "option subscription",
-    "name-en": "option-subscription",
-    "desc-en": "option subscription"
-  }
+{"category":"시작/인증","folder":"start","name-ko":"empty-oracle-ko","desc-ko":"인증전, 로그인전, 빈화면, 오라클, 메인화면","name-en":"empty-oracle-en","desc-en":"sqlgate main"}
+,
+{"category":"시작/인증","folder":"start","name-ko":"need-login-oracle-ko","desc-ko":"로그인필요, 오라클","name-en":"need-login-oracle-en","desc-en":"sqlgate require login"}
+,
+{"category":"시작/인증","folder":"start","name-ko":"need-login-oracle-offline-activate-ko","desc-ko":"로그인필요, 오프라인 활성화, 오라클","name-en":"need-login-oracle-offline-activate-en","desc-en":"sqlgate offline activation"}
+,
+{"category":"시작/인증","folder":"start","name-ko":"login-ko","desc-ko":"사용자인증, 로그인, 오라클","name-en":"login-en","desc-en":"sqlgate login"}
+,
+{"category":"시작/인증","folder":"start","name-ko":"offline-activate-ko","desc-ko":"오프라인 활성화, 오라클, 오프라인 활성화 코드를 입력하세요.","name-en":"offline-activate-en","desc-en":"sqlgate offline activation"}
+,
+{"category":"시작/인증","folder":"start","name-ko":"input-licensekey-ko","desc-ko":"SQLGate 정품 인증, 제품키, 오라클","name-en":"input-licensekey-en","desc-en":"input license key"}
+,
+{"category":"시작/인증","folder":"start","name-ko":"new-connection-ko","desc-ko":"새 접속, 오라클","name-en":"new-connection-en","desc-en":"new connection"}
+,
+{"category":"시작/인증","folder":"start","name-ko":"new-connection-oci-ko","desc-ko":"새 접속, OCI, 오라클","name-en":"new-connection-oci-en","desc-en":"new connection oci"}
+,
+{"category":"시작/인증","folder":"start","name-ko":"new-connection-en-mysql","desc-ko":"데이터베이스 접속, 새접속, MySQL","name-en":"new-connection-en-mysql","desc-en":"new connection mysql"}
+,
+{"category":"시작/인증","folder":"start","name-ko":"new-connection-en-postgre","desc-ko":"데이터베이스 접속, 새접속, postgreSQL, pgsql","name-en":"new-connection-en-postgre","desc-en":"new connection postgreSQL"}
+,
+{"category":"시작/인증","folder":"start","name-ko":"choice-plan-ko","desc-ko":"구독 플랜 선택, choice your plan, 오라클","name-en":"choice-plan-en","desc-en":"choose your plan"}
+,
+{"category":"쿼리만들기","folder":"query-editor","name-ko":"query-editor-empty-ko","desc-ko":"빈쿼리에디터, empty query editor, 기본에디터, default editor, SQL Editor, SQL 에디터, 오라클","name-en":"query-editor-empty-en","desc-en":"SQL query editor"}
+,
+{"category":"쿼리만들기","folder":"query-editor","name-ko":"query-builder-menu-ko","desc-ko":"쿼리작성기 메뉴","name-en":"query-builder-menu-en","desc-en":"SQL query builder"}
+,
+{"category":"쿼리만들기","folder":"query-editor","name-ko":"query-builder-add-condition-ko","desc-ko":"쿼리작성기 조건 추가, query builder add condition, Criteria, 기준","name-en":"query-builder-add-condition-en","desc-en":"SQL query builder add condition"}
+,
+{"category":"쿼리만들기","folder":"query-editor","name-ko":"query-builder-result-ko","desc-ko":"쿼리작성기 실행 결과, query builder run result, 오라클","name-en":"query-builder-result-en","desc-en":"SQL query builder excute result"}
+,
+{"category":"쿼리만들기","folder":"query-editor","name-ko":"query-builder-SQL-ko","desc-ko":"쿼리작성기 SQL, query builder SQL, 오라클","name-en":"query-builder-SQL-en","desc-en":"SQL query builder"}
+,
+{"category":"데이터수정","folder":"edit-data","name-ko":"run-and-modify-current-SQL-ko","desc-ko":"현재 SQL 실행 및 수정, run and modify current SQL, 오라클","name-en":"run-and-modify-current-SQL-en","desc-en":"run and modify current SQL"}
+,
+{"category":"데이터수정","folder":"edit-data","name-ko":"edit-data-on-table-detail-window-ko","desc-ko":"테이블설명창에서 데이터 수정","name-en":"edit-data-on-table-detail-window-en","desc-en":"Edit data on table explanation window, On the Table Explanation window, click the Data tab."}
+,
+{"category":"마법사","folder":"wizard","name-ko":"create-table-wizard-01-ko","desc-ko":"새테이블 만들기 마법사 메뉴","name-en":"create-table-wizard-01-en","desc-en":"create table wizard menu"}
+,
+{"category":"마법사","folder":"wizard","name-ko":"create-table-wizard-02-ko","desc-ko":"새테이블 만들기 컬럼정보 입력 양식","name-en":"create-table-wizard-02-en","desc-en":"create table wizard column form"}
+,
+{"category":"마법사","folder":"wizard","name-ko":"data-export-wizard-01-ko","desc-ko":"데이터 내보내기 마법사 툴바에서 시작","name-en":"data-export-wizard-01-en","desc-en":"export data in toolbar"}
+,
+{"category":"마법사","folder":"wizard","name-ko":"data-export-wizard-02-ko","desc-ko":"데이터 내보내기 바법사 개체탐색기에서 시작","name-en":"data-export-wizard-02-en","desc-en":"export data in order panel"}
+,
+{"category":"마법사","folder":"wizard","name-ko":"data-export-wizard-03-ko","desc-ko":"데이터 내보내기할 개체 선택하기 창","name-en":"data-export-wizard-03-en","desc-en":"choose object window to export data"}
+,
+{"category":"마법사","folder":"wizard","name-ko":"data-export-wizard-04-ko","desc-ko":"데이터 내보내기 마법사 쿼리 결과에서 시작","name-en":"data-export-wizard-04-en","desc-en":"export data in query result"}
+,
+{"category":"마법사","folder":"wizard","name-ko":"data-import-wizard-column-mapping-ko","desc-ko":"데이터 가져오기 마법사 열 매핑","name-en":"data-import-wizard-column-mapping-en","desc-en":"import data wizard column mapping"}
+,
+{"category":"마법사","folder":"wizard","name-ko":"data-import-wizard-file-additional-option-ko","desc-ko":"데이터 가져오기 마법사 추가 옵션 설정","name-en":"data-import-wizard-file-additional-option-en","desc-en":"import data wizard file additional option"}
+,
+{"category":"마법사","folder":"wizard","name-ko":"data-import-wizard-file-option-ko","desc-ko":"데이터 가져오기 마법사 옵션 설정","name-en":"data-import-wizard-file-option-en","desc-en":"import data wizard fiile option"}
+,
+{"category":"마법사","folder":"wizard","name-ko":"data-import-wizard-file-preview-ko","desc-ko":"데이터 가져오기 마법사 파일 미리보기","name-en":"data-import-wizard-file-preview-en","desc-en":"import data wizard file preview"}
+,
+{"category":"마법사","folder":"wizard","name-ko":"data-import-wizard-run-summary-ko","desc-ko":"데이터 가져오기 마법사 실행 요약","name-en":"data-import-wizard-run-summary-en","desc-en":"import data wizard run summary"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"add-record-at-query-result-ko","desc-ko":"쿼리를 실행하고 결과 편집에서 데이터 추가","name-en":"add-record-at-query-result-en","desc-en":"run SQL and add record, add record at query result"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"bind-substitution-variables-active-ko","desc-ko":"대체 변수 사용 활성화","name-en":"bind-substitution-variables-active-en","desc-en":"active bind substitution variables"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"bind-substitution-variables-run-sql-ko","desc-ko":"대체 변수이용한 SQL 실행","name-en":"bind-substitution-variables-run-sql-en","desc-en":"bind substitution variables run sql"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"bind-variables-active-ko","desc-ko":"바인드 변수 사용 활성화","name-en":"bind-variables-active-en","desc-en":"active bind variables function"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"bind-variables-run-sql-ko","desc-ko":"바인드 변수이용한 SQL 실행","name-en":"bind-variables-run-sql-en","desc-en":"bind variables run sql"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"bind-variables-run-sql-result-ko","desc-ko":"바인드 변수이용한 SQL 실행 결과","name-en":"bind-variables-run-sql-result-en","desc-en":"bind variables run sql result"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"delete-record-at-query-result-ko","desc-ko":"쿼리를 실행하고 결과 편집에서 데이터 삭제","name-en":"delete-record-at-query-result-en","desc-en":"delete record query result"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"run-and-modify-current-SQL-ko","desc-ko":"쿼리를 실행하고 바로 편집하기","name-en":"run-and-modify-current-SQL-en","desc-en":"run and modify current SQL"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"run-multi-query-ko","desc-ko":"여러개의 쿼리 동시에 실행하기","name-en":"run-multi-query-en","desc-en":"run multi query"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"run-selected-query-ko","desc-ko":"여러개의 쿼리에서 한개","name-en":"run-selected-query-en","desc-en":"run selected query"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"run-single-query-ko","desc-ko":"SQL 한개의 쿼리 실행하기","name-en":"run-single-query-en","desc-en":"run single query"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"run-sub-query-ko","desc-ko":"하위 쿼리 블록 실행하기","name-en":"run-sub-query-en","desc-en":"run sub query"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"selection-sql-replace-ko","desc-ko":"선택영역에서 문자열 일괄 변환하기","name-en":"selection-sql-replace-en","desc-en":"selection sql replace"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"work-sql-history-ko","desc-ko":"아이콘, SQL 기록으로 작업하기","name-en":"work-sql-history-en","desc-en":"work sql history"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"icon-sql-history-add-to-editor","desc-ko":"아이콘, SQL 기록 편집기에 추가","name-en":"icon-sql-history-add-to-editor","desc-en":"icon sql history add to editor"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"icon-sql-history-add-to-new-tab","desc-ko":"아이콘, SQL 기록 새탭에 붙여넣기","name-en":"icon-sql-history-add-to-new-tab","desc-en":"icon sql history add to new tab"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"icon-sql-history-collapse","desc-ko":"아이콘, SQL 기록 그룹축소","name-en":"icon-sql-history-collapse","desc-en":"icon sql history collapse"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"icon-sql-history-copy-to-clipboard","desc-ko":"아이콘, SQL 기록 클립보드로 복사","name-en":"icon-sql-history-copy-to-clipboard","desc-en":"icon sql history copy to clipboard"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"icon-sql-history-delete-all-in-group","desc-ko":"아이콘, SQL 기록 현재 그룹의 SQL모두 삭제","name-en":"icon-sql-history-delete-all-in-group","desc-en":"icon sql history delete all in group"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"icon-sql-history-delete-group","desc-ko":"아이콘, SQL 기록 그룹 삭제","name-en":"icon-sql-history-delete-group","desc-en":"icon sql history delete group"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"icon-sql-history-delete-sql","desc-ko":"아이콘, SQL 기록 SQL 삭제","name-en":"icon-sql-history-delete-sql","desc-en":"icon sql history delete sql"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"icon-sql-history-expand-group","desc-ko":"아이콘, SQL 기록 그룹확장","name-en":"icon-sql-history-expand-group","desc-en":"icon sql history expand group"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"icon-sql-history-find","desc-ko":"아이콘, SQL 기록 찾기","name-en":"icon-sql-history-find","desc-en":"icon sql history find"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"icon-sql-history-modify-group","desc-ko":"아이콘, SQL 기록 그룹 수정","name-en":"icon-sql-history-modify-group","desc-en":"icon sql history modify group"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"icon-sql-history-modify-sql","desc-ko":"아이콘, SQL 기록 SQL 수정","name-en":"icon-sql-history-modify-sql","desc-en":"icon sql history modify sql"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"icon-sql-history-move-group","desc-ko":"아이콘, SQL 기록 그룹 이동","name-en":"icon-sql-history-move-group","desc-en":"icon sql history move group"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"icon-sql-history-new-group","desc-ko":"아이콘, SQL 기록 새 그룹","name-en":"icon-sql-history-new-group","desc-en":"icon sql history new group"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"icon-sql-history-new-sql","desc-ko":"아이콘, SQL 기록 SQL 추가","name-en":"icon-sql-history-new-sql","desc-en":"icon sql history new sql"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"icon-sql-history-open-file","desc-ko":"아이콘, SQL 기록 파일 열기","name-en":"icon-sql-history-open-file","desc-en":"icon sql history open file"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"icon-sql-history-replace-in-editor","desc-ko":"아이콘, SQL 기록 편집기에서 바꾸기","name-en":"icon-sql-history-replace-in-editor","desc-en":"icon sql history replace in editor"}
+,
+{"category":"SQL편집기","folder":"SQLEditor","name-ko":"icon-sql-history-save-to-file","desc-ko":"아이콘, SQL 기록 파일로 저장","name-en":"icon-sql-history-save-to-file","desc-en":"icon sql history save to file"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"use-table-autocomplete-ko","desc-ko":"SQL 에디터에서 테이블 자동완성","name-en":"use-table-autocomplete-en","desc-en":"Use Table AutoComplete"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"use-table-autocomplete-choice-object-ko","desc-ko":"SQL 에디터에서 테이블 자동완성 목록 특정 오브젝트 선택","name-en":"use-table-autocomplete-choice-object-en","desc-en":"Use Table AutoComplete choose object"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"use-field-autocomplete-ko","desc-ko":"SQL 에디터에서 컬럼 자동완성","name-en":"use-field-autocomplete-en","desc-en":"Use Field AutoComplete"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"use-code-template-autocomplete-ko","desc-ko":"SQL 에디터에서 코드 템플릿 자동완성","name-en":"use-code-template-autocomplete-en","desc-en":"Use Code AutoComplete"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"use-code-template-autocomplete-result-ko","desc-ko":"SQL 에디터에서 코드 템플릿 자동완성 실행 결과","name-en":"use-code-template-autocomplete-result-en","desc-en":"Use Code AutoComplete result"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"use-code-template-customize-ko","desc-ko":"SQL 에디터에서 코드 템플릿 사용자화 하기","name-en":"use-code-template-customize-en","desc-en":"Use Code AutoComplete customize"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"align-query-statements-01-ko","desc-ko":"SQL맞춤","name-en":"align-query-statements-01-en","desc-en":"Align Query Statements"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"align-query-statements-02-ko","desc-ko":"SQL맞춤 결과","name-en":"align-query-statements-02-en","desc-en":"Align Query Statements"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"align-query-statements-03-ko","desc-ko":"SQL맞춤 옵션","name-en":"align-query-statements-03-en","desc-en":"Align Query Statements"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"change-query-result-view-01-ko","desc-ko":"쿼리 결과 창을 가로/세로 전환하기 가로보기","name-en":"change-query-result-view-01-en","desc-en":"Change Query Result Window View Horizontally/Vertically"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"change-query-result-view-02-ko","desc-ko":"쿼리 결과 창을 가로/세로 전환하기 세로보기","name-en":"change-query-result-view-02-en","desc-en":"Change Query Result Window View Horizontally/Vertically"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"change-query-result-view-03-ko","desc-ko":"여러개의 쿼리 결과 창을 가로/세로 전환하기 위에서 부터","name-en":"change-query-result-view-03-en","desc-en":"Change Query Result Window View Horizontally/Vertically"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"change-query-result-view-04-ko","desc-ko":"여러개의 쿼리 결과 창을 가로/세로 전환하기 좌에서 부터","name-en":"change-query-result-view-04-en","desc-en":"Change Query Result Window View Horizontally/Vertically"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"display-two-SQL-editor-01-ko","desc-ko":"SQL편집기 창을 두개로 보기 좌우로 분할","name-en":"display-two-SQL-editor-01-en","desc-en":"Display Two SQL Editor Windows"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"display-two-SQL-editor-02-ko","desc-ko":"SQL편집기 창을 두개로 보기 위아래로 분할","name-en":"display-two-SQL-editor-02-en","desc-en":"Display Two SQL Editor Windows"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"add-tab-editor-ko","desc-ko":"편집기 창 탭 추가하여 SQL 실행하기","name-en":"add-tab-editor-en","desc-en":"Add an Editor Tab and Run SQL"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"add-tab-editor-option-ko","desc-ko":"편집기 창의 탭 여러 개 추가하기","name-en":"add-tab-editor-option-en","desc-en":"Add Multiple Tabs on Editor Window"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"bookmark-shortcut-01-ko","desc-ko":"책갈피로 바로 가기","name-en":"bookmark-shortcut-01-en","desc-en":"Bookmark Shortcut"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"bookmark-shortcut-02-ko","desc-ko":"책갈피로 바로 가기","name-en":"bookmark-shortcut-02-en","desc-en":"Bookmark Shortcut"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"close-all-tab-ko","desc-ko":"현재 창 이외에 모두 닫기","name-en":"close-all-tab-en","desc-en":"Close All But This"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"comment-block-01-ko","desc-ko":"SQL 구문 주석 한 번에 추가하기","name-en":"comment-block-01-en","desc-en":"Add SQL Comment At Once"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"comment-block-02-ko","desc-ko":"SQL 구문 주석 한 번에 추가하기","name-en":"comment-block-02-en","desc-en":"Add SQL Comment At Once"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"comment-block-remove-01-ko","desc-ko":"SQL 구문 주석 한 번에 해제하기","name-en":"comment-block-remove-01-en","desc-en":"Uncomment SQL At Once"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"comment-block-remove-02-ko","desc-ko":"SQL 구문 주석 한 번에 해제하기","name-en":"comment-block-remove-02-en","desc-en":"Uncomment SQL At Once"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"convert-SQL-java-codes-ko","desc-ko":"SQL을 Java 코드로 변환하기","name-en":"convert-SQL-java-codes-en","desc-en":"Convert SQL to Java Codes"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"convert-SQL-java-codes-view","desc-ko":"SQL을 Java 코드로 변환하기","name-en":"convert-SQL-java-codes-view","desc-en":"Convert SQL to Java Codes"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"create-separate-window-query-result-ko","desc-ko":"편집기 창과 그리드 분리하기","name-en":"create-separate-window-query-result-en","desc-en":"Create a Separate Window for Editor and Grid"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"extract-SQL-from-java-result-ko","desc-ko":"Java 코드에서 SQL 추출하기","name-en":"extract-SQL-from-java-result-en","desc-en":"Extract SQL from Java"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"extract-SQL-from-java","desc-ko":"Java 코드에서 SQL 추출하기","name-en":"extract-SQL-from-java","desc-en":"Extract SQL from Java"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"relocate-editor-window-grid-ko","desc-ko":"편집기 창과 그리드 위치 재정렬 하기","name-en":"relocate-editor-window-grid-en","desc-en":"Relocate Editor Window and Grid"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"view-editor-only-ko","desc-ko":"편집기 창만 보기","name-en":"view-editor-only-en","desc-en":"View Editor Only"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"view-table-data-right-away-ko","desc-ko":"테이블 데이터 바로 보기","name-en":"view-table-data-right-away-en","desc-en":"View Table Data Right Away"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"view-table-infomation-ko","desc-ko":"테이블 전체 정보 바로 보기","name-en":"view-table-infomation-en","desc-en":"Get Full Table Information"}
+,
+{"category":"SQL편집기세부기능","folder":"SQLEditorAdvanced","name-ko":"view-table-schema-right-away-ko","desc-ko":"테이블 스키마 바로 보기","name-en":"view-table-schema-right-away-en","desc-en":"View Table Schema Right Away"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"execution-plan-aflow-chart-ko","desc-ko":"SQL 실행계획 플로우 차트로 보기","name-en":"execution-plan-aflow-chart-en","desc-en":"On the Flow Chart tab, check if the Flow Chart has correctly been created ."}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"execution-plan-block-ko","desc-ko":"블록 SQL 실행 계획으로 실행하기 하기","name-en":"execution-plan-block-en","desc-en":"Run Using Execution Plan of Block SQL"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"execution-plan-ko","desc-ko":"SQL 실행 계획을 실행하고 인덱스 확인하기","name-en":"execution-plan-en","desc-en":"Run SQL Execution Plan and Check Index"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"execution-plan-text-ko","desc-ko":"SQL 실행계획 텍스트로 보기","name-en":"execution-plan-text-en","desc-en":"Execution Plan text"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-addEditor","desc-ko":"편집기 추가","name-en":"icon-sql-editor-addEditor","desc-en":"Add Editor"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-autocompleteDisable","desc-ko":"편집기 자동완성 사용안함","name-en":"icon-sql-editor-autocompleteDisable","desc-en":"Disable Autocomplate"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-autocompleteRefresh","desc-ko":"편집기 자동완성 캐쉬 새로고침","name-en":"icon-sql-editor-autocompleteRefresh","desc-en":"Refresh Autocomplate cache data"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-awrReport","desc-ko":"AWR 리포트 보기","name-en":"icon-sql-editor-awrReport","desc-en":"AWR Report"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-blockSQLExecutionPlan","desc-ko":"실행계획 보기","name-en":"icon-sql-editor-blockSQLExecutionPlan","desc-en":"Run Execution plan"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-capitalize","desc-ko":"첫글자를 대문자로","name-en":"icon-sql-editor-capitalize","desc-en":"Capitalize"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-changeCase","desc-ko":"대소문자 바꾸기","name-en":"icon-sql-editor-changeCase","desc-en":"Change Case"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-clearAll","desc-ko":"에디터 비우기","name-en":"icon-sql-editor-clearAll","desc-en":"Clear ALL"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-commentBlock","desc-ko":"주석 달기","name-en":"icon-sql-editor-commentBlock","desc-en":"Comment Block"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-copy","desc-ko":"복사하기","name-en":"icon-sql-editor-copy","desc-en":"Copy"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-copyEditor","desc-ko":"에디터 복사하기","name-en":"icon-sql-editor-copyEditor","desc-en":"Copy Editor"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-cut","desc-ko":"잘라내기","name-en":"icon-sql-editor-cut","desc-en":"Cut"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-delete","desc-ko":"삭제하기","name-en":"icon-sql-editor-delete","desc-en":"Delete"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-executionStatistic","desc-ko":"실행계획 통계","name-en":"icon-sql-editor-executionStatistic","desc-en":"Execution plan statistic"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-find","desc-ko":"찾기","name-en":"icon-sql-editor-find","desc-en":"Find"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-findAll","desc-ko":"모두찾기","name-en":"icon-sql-editor-findAll","desc-en":"Find all"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-findFirst","desc-ko":"처음부터 찾기","name-en":"icon-sql-editor-findFirst","desc-en":"Find first"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-findLast","desc-ko":"마지막 찾기","name-en":"icon-sql-editor-findLast","desc-en":"Find last"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-findNext","desc-ko":"다음 찾기","name-en":"icon-sql-editor-findNext","desc-en":"Find next"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-gotoLine","desc-ko":"줄이동","name-en":"icon-sql-editor-gotoLine","desc-en":"Goto line"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-indent","desc-ko":"들여쓰기","name-en":"icon-sql-editor-indent","desc-en":"Indent"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-lowercase","desc-ko":"소문자로 바꾸기","name-en":"icon-sql-editor-lowercase","desc-en":"Lowercase"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-moveTabToRight","desc-ko":"결과창 오른쪽으로 보기","name-en":"icon-sql-editor-moveTabToRight","desc-en":"Move tab to right"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-nextEditor","desc-ko":"다음 편집기","name-en":"icon-sql-editor-nextEditor","desc-en":"Next editor"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-openFile","desc-ko":"파일 열기","name-en":"icon-sql-editor-openFile","desc-en":"Open file"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-outdent","desc-ko":"내어쓰기","name-en":"icon-sql-editor-outdent","desc-en":"Outdent"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-paste","desc-ko":"붙여넣기","name-en":"icon-sql-editor-paste","desc-en":"Paste"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-pasteFromTheCode","desc-ko":"코드에서 붙여넣지","name-en":"icon-sql-editor-pasteFromTheCode","desc-en":"Paste from the code"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-previousEditor","desc-ko":"이전 편집기","name-en":"icon-sql-editor-previousEditor","desc-en":"Previouse Editor"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-printPreview","desc-ko":"인쇄 미리보기","name-en":"icon-sql-editor-printPreview","desc-en":"Print preview"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-queryDescription","desc-ko":"쿼리 설명","name-en":"icon-sql-editor-queryDescription","desc-en":"Query description"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-redo","desc-ko":"재실행","name-en":"icon-sql-editor-redo","desc-en":"Redo"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-removeEditor","desc-ko":"에디터 제거하기","name-en":"icon-sql-editor-removeEditor","desc-en":"Remove editor"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-replace","desc-ko":"바꾸기","name-en":"icon-sql-editor-replace","desc-en":"Replace"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-runCurrentSQL","desc-ko":"현재 SQL문자 실행","name-en":"icon-sql-editor-runCurrentSQL","desc-en":"Run current SQL"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-runCurrentSQLActualEstimateExecutionPlan","desc-ko":"실행계획","name-en":"icon-sql-editor-runCurrentSQLActualEstimateExecutionPlan","desc-en":"Run Current SQL Actual Estimate Execution Plan"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-runCurrentSQLEstimateExecutionPlan","desc-ko":"실행계획","name-en":"icon-sql-editor-runCurrentSQLEstimateExecutionPlan","desc-en":"Run Current SQL Estimate Execution Plan"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-runCurrentSQLExecutionPlan","desc-ko":"실행계획","name-en":"icon-sql-editor-runCurrentSQLExecutionPlan","desc-en":"Run Current SQL Execution Plan"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-runSQL","desc-ko":"SQL 실행","name-en":"icon-sql-editor-runSQL","desc-en":"Run SQL"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-save","desc-ko":"저장하기","name-en":"icon-sql-editor-save","desc-en":"Save"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-saveAs","desc-ko":"다른이름으로 저장하기","name-en":"icon-sql-editor-saveAs","desc-en":"Save as"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-selectAll","desc-ko":"전체선택","name-en":"icon-sql-editor-selectAll","desc-en":"Select all"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-sessionStatistic","desc-ko":"세션 통계","name-en":"icon-sql-editor-sessionStatistic","desc-en":"Session statistic"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-setBackgroundColor","desc-ko":"배경 색 변경","name-en":"icon-sql-editor-setBackgroundColor","desc-en":"Set Background Color"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-showBlankTabReturn","desc-ko":"탭 공백 리턴 문자보기","name-en":"icon-sql-editor-showBlankTabReturn","desc-en":"Show blank, tab, Return"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-showGrid","desc-ko":"Toggle/Collapse grid.","name-en":"icon-sql-editor-showGrid","desc-en":"Toggle/Collapse grid."}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-SQLAlignment","desc-ko":"SQL맞춤","name-en":"icon-sql-editor-SQLAlignment","desc-en":"SQL Alignment"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-SQLAlignmentOptions","desc-ko":"SQL맞춤 옵션","name-en":"icon-sql-editor-SQLAlignmentOptions","desc-en":"SQL Alignment Options"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-SQLConvert","desc-ko":"SQL문장을 코드로 변환하기","name-en":"icon-sql-editor-SQLConvert","desc-en":"SQL Convert"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-SQLHistory","desc-ko":"SQL기록","name-en":"icon-sql-editor-SQLHistory","desc-en":"SQL History"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-SQLTrace","desc-ko":"SQL추적하기","name-en":"icon-sql-editor-SQLTrace","desc-en":"SQL Trace"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-SQLTuningAdvisor","desc-ko":"SQL튜닝","name-en":"icon-sql-editor-SQLTuningAdvisor","desc-en":"SQL Tuning Advisor"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-stop","desc-ko":"중지","name-en":"icon-sql-editor-stop","desc-en":"Stop"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-runAndModifyCurrentSQL","desc-ko":"현재쿼리 실행 및 수정","name-en":"icon-sql-editor-runAndModifyCurrentSQL","desc-en":"Run current SQL and modify the data on the grid."}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-subQueryBlock","desc-ko":"하위쿼리 블록 실행","name-en":"icon-sql-editor-subQueryBlock","desc-en":"Run the SubQuery block."}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-toggleFolding","desc-ko":"접기 설정/해제","name-en":"icon-sql-editor-toggleFolding","desc-en":"Toggle folding."}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-uncommentBlock","desc-ko":"블록주석 제거","name-en":"icon-sql-editor-uncommentBlock","desc-en":"Uncomment block"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-undo","desc-ko":"실행 취소","name-en":"icon-sql-editor-undo","desc-en":"Undo"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-uppercase","desc-ko":"대문자로 변경하기","name-en":"icon-sql-editor-uppercase","desc-en":"Uppercase"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-useBindVariable","desc-ko":"바인드 변수 사용","name-en":"icon-sql-editor-useBindVariable","desc-en":"Use bind variables"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-useSubstitutionVariable","desc-ko":"대체 변수 사용","name-en":"icon-sql-editor-useSubstitutionVariable","desc-en":"Use Substitution variables"}
+,
+{"category":"실행계획","folder":"executionPlan","name-ko":"icon-sql-editor-wordWrap","desc-ko":"자동 줄 바꿈 설정/해제","name-en":"icon-sql-editor-wordWrap","desc-en":"Word wrap"}
+,
+{"category":"DBMS_OUTPUT","folder":"DBMS_OUTPUT","name-ko":"dbmsoutput-plsql-editor","desc-ko":"DBMS_OUTPUT view","name-en":"dbmsoutput-plsql-editor","desc-en":"DBMS_OUTPUT view"},
+{"category":"DBMS_OUTPUT","folder":"DBMS_OUTPUT","name-ko":"icon-sql-editor-clearOutput","desc-ko":"Clears off the output.","name-en":"icon-sql-editor-clearOutput","desc-en":"Clears off the output."},
+{"category":"DBMS_OUTPUT","folder":"DBMS_OUTPUT","name-ko":"icon-sql-editor-refreshDBMSOutput","desc-ko":"Refreshes the result.","name-en":"icon-sql-editor-refreshDBMSOutput","desc-en":"Refreshes the result."},
+{"category":"DBMS_OUTPUT","folder":"DBMS_OUTPUT","name-ko":"icon-sql-editor-saveAsFile","desc-ko":"Saves the result as set file type.","name-en":"icon-sql-editor-saveAsFile","desc-en":"Saves the result as set file type."},
+{"category":"DBMS_OUTPUT","folder":"DBMS_OUTPUT","name-ko":"icon-sql-editor-setBufferSize","desc-ko":"Set the size of DBMS OUTPUT buffer. Oracle databases support from 2KB to 1MB. The default is set to 10000KB.","name-en":"icon-sql-editor-setBufferSize","desc-en":"Set the size of DBMS OUTPUT buffer. Oracle databases support from 2KB to 1MB. The default is set to 10000KB."},
+{"category":"DBMS_OUTPUT","folder":"DBMS_OUTPUT","name-ko":"icon-sql-editor-turnOffDBMSOutput","desc-ko":"Enables/disables DBMS OUTPUT.","name-en":"icon-sql-editor-turnOffDBMSOutput","desc-en":"Enables/disables DBMS OUTPUT."},
+{"category":"프로시저","folder":"precedure","name-ko":"precedure-recompile-01","desc-ko":"Procedure Recompile Objects","name-en":"precedure-recompile-01","desc-en":"Procedure Recompile Objects"}
+,
+{"category":"프로시저","folder":"precedure","name-ko":"precedure-recompile-02","desc-ko":"Procedure Recompile Objects","name-en":"precedure-recompile-02","desc-en":"Procedure Recompile Objects"}
+,
+{"category":"프로시저","folder":"precedure","name-ko":"precedure-recompile-03","desc-ko":"Procedure Recompile Objects","name-en":"precedure-recompile-03","desc-en":"Procedure Recompile Objects"}
+,
+{"category":"프로시저","folder":"precedure","name-ko":"precedure-recompile-04","desc-ko":"Procedure Recompile Objects","name-en":"precedure-recompile-04","desc-en":"Procedure Recompile Objects"}
+,
+{"category":"프로시저","folder":"precedure","name-ko":"procedure-check-result-01","desc-ko":"Run Procedure and Check The Result Value","name-en":"procedure-check-result-01","desc-en":"Run Procedure and Check The Result Value"}
+,
+{"category":"프로시저","folder":"precedure","name-ko":"procedure-check-result-02","desc-ko":"Run Procedure and Check The Result Value","name-en":"procedure-check-result-02","desc-en":"Run Procedure and Check The Result Value"}
+,
+{"category":"프로시저","folder":"precedure","name-ko":"procedure-check-result-03","desc-ko":"Run Procedure and Check The Result Value","name-en":"procedure-check-result-03","desc-en":"Run Procedure and Check The Result Value"}
+,
+{"category":"프로시저","folder":"precedure","name-ko":"procedure-compile-find-error","desc-ko":"Find Error in Procedure and Compile","name-en":"procedure-compile-find-error","desc-en":"Find Error in Procedure and Compile"}
+,
+{"category":"프로시저","folder":"precedure","name-ko":"procedure-view-version","desc-ko":"View Version While Coding Procedure","name-en":"procedure-view-version","desc-en":"View Version While Coding Procedure"}
+,
+{"category":"프로시저","folder":"precedure","name-ko":"procedures-autocomplete","desc-ko":"Use Code AutoComplete to Type Less Codes","name-en":"procedures-autocomplete","desc-en":"Use Code AutoComplete to Type Less Codes"}
+,
+{"category":"쿼리빌더","folder":"query-builder","name-ko":"queryBuilder-add-column-01","desc-ko":"Add Column on Query Builder","name-en":"queryBuilder-add-column-01","desc-en":"Add Column on Query Builder"}
+,
+{"category":"쿼리빌더","folder":"query-builder","name-ko":"queryBuilder-add-column-02","desc-ko":"Add Column on Query Builder","name-en":"queryBuilder-add-column-02","desc-en":"Add Column on Query Builder"}
+,
+{"category":"쿼리빌더","folder":"query-builder","name-ko":"queryBuilder-add-delete-table-01","desc-ko":"Add or Delete Query Builder Table","name-en":"queryBuilder-add-delete-table-01","desc-en":"Add or Delete Query Builder Table"}
+,
+{"category":"쿼리빌더","folder":"query-builder","name-ko":"queryBuilder-add-delete-table-02","desc-ko":"Add or Delete Query Builder Table","name-en":"queryBuilder-add-delete-table-02","desc-en":"Add or Delete Query Builder Table"}
+,
+{"category":"쿼리빌더","folder":"query-builder","name-ko":"queryBuilder-create-join-01","desc-ko":"Create JOIN Between Tables","name-en":"queryBuilder-create-join-01","desc-en":"Create JOIN Between Tables"}
+,
+{"category":"쿼리빌더","folder":"query-builder","name-ko":"queryBuilder-create-join-02","desc-ko":"Create JOIN Between Tables","name-en":"queryBuilder-create-join-02","desc-en":"Create JOIN Between Tables"}
+,
+{"category":"쿼리빌더","folder":"query-builder","name-ko":"queryBuilder-create-join-03","desc-ko":"Create JOIN Between Tables","name-en":"queryBuilder-create-join-03","desc-en":"Create JOIN Between Tables"}
+,
+{"category":"쿼리빌더","folder":"query-builder","name-ko":"queryBuilder-create-join-04","desc-ko":"Create JOIN Between Tables","name-en":"queryBuilder-create-join-04","desc-en":"Create JOIN Between Tables"}
+,
+{"category":"데이터그리드","folder":"datagrid","name-ko":"datagrid-addColumnNameOnTheEditor","desc-ko":"View Data Horizontally/Vertically","name-en":"datagrid-addColumnNameOnTheEditor","desc-en":"View Data Horizontally/Vertically"}
+,
+{"category":"데이터그리드","folder":"datagrid","name-ko":"datagrid-addModifyClipboardData-01","desc-ko":"Add/Modify Clipboard Data on the Grid","name-en":"datagrid-addModifyClipboardData-01","desc-en":"Add/Modify Clipboard Data on the Grid"}
+,
+{"category":"데이터그리드","folder":"datagrid","name-ko":"datagrid-addModifyClipboardData","desc-ko":"Add/Modify Clipboard Data on the Grid","name-en":"datagrid-addModifyClipboardData","desc-en":"Add/Modify Clipboard Data on the Grid"}
+,
+{"category":"데이터그리드","folder":"datagrid","name-ko":"datagrid-copySelectedCells","desc-ko":"Copy Selected Cell","name-en":"datagrid-copySelectedCells","desc-en":"Copy Selected Cell"}
+,
+{"category":"데이터그리드","folder":"datagrid","name-ko":"datagrid-createInSystax-01","desc-ko":"Auto-create IN syntax","name-en":"datagrid-createInSystax-01","desc-en":"Auto-create IN syntax"}
+,
+{"category":"데이터그리드","folder":"datagrid","name-ko":"datagrid-createInSystax","desc-ko":"Auto-create IN syntax","name-en":"datagrid-createInSystax","desc-en":"Auto-create IN syntax"}
+,
+{"category":"데이터그리드","folder":"datagrid","name-ko":"datagrid-operateSelectedCell","desc-ko":"Operate Selected Cell","name-en":"datagrid-operateSelectedCell","desc-en":"Operate Selected Cell"}
+,
+{"category":"데이터그리드","folder":"datagrid","name-ko":"datagrid-pinSelectedColumn","desc-ko":"Fix the Selected Column","name-en":"datagrid-pinSelectedColumn","desc-en":"Fix the Selected Column"}
+,
+{"category":"데이터그리드","folder":"datagrid","name-ko":"datagrid-saveResultAsExcel","desc-ko":"Save Results as Excel","name-en":"datagrid-saveResultAsExcel","desc-en":"Save Results as Excel"}
+,
+{"category":"데이터그리드","folder":"datagrid","name-ko":"datagrid-selectMultipleCells","desc-ko":"Select Multiple Cells","name-en":"datagrid-selectMultipleCells","desc-en":"Select Multiple Cells"}
+,
+{"category":"데이터그리드","folder":"datagrid","name-ko":"datagrid-sortSelectedColumn-01","desc-ko":"Sort Selected Columns","name-en":"datagrid-sortSelectedColumn-01","desc-en":"Sort Selected Columns"}
+,
+{"category":"데이터그리드","folder":"datagrid","name-ko":"datagrid-sortSelectedColumn-02","desc-ko":"Sort Selected Columns","name-en":"datagrid-sortSelectedColumn-02","desc-en":"Sort Selected Columns"}
+,
+{"category":"데이터그리드","folder":"datagrid","name-ko":"datagrid-sortSelectedColumn","desc-ko":"Sort Selected Columns","name-en":"datagrid-sortSelectedColumn","desc-en":"Sort Selected Columns"}
+,
+{"category":"데이터그리드","folder":"datagrid","name-ko":"datagrid-viewDataHorizontallyVertically-01","desc-ko":"View Data Horizontally/Vertically","name-en":"datagrid-viewDataHorizontallyVertically-01","desc-en":"View Data Horizontally/Vertically"}
+,
+{"category":"데이터그리드","folder":"datagrid","name-ko":"datagrid-viewDataHorizontallyVertically","desc-ko":"View Data Horizontally/Vertically","name-en":"datagrid-viewDataHorizontallyVertically","desc-en":"View Data Horizontally/Vertically"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"object-searchPanel","desc-ko":"Search for Object","name-en":"object-searchPanel","desc-en":"Search for Object"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"object-searchPanelDetail","desc-ko":"Check details of the searched objects.","name-en":"object-searchPanelDetail","desc-en":"Check details of the searched objects."}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"object-searchPanelDetailData","desc-ko":"Change Data Value on Field","name-en":"object-searchPanelDetailData","desc-en":"Change Data Value on Field"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"objectExplorer-alwaysOnTop","desc-ko":"Object Tabs in Object Explorer","name-en":"objectExplorer-alwaysOnTop","desc-en":"Object Tabs in Object Explorer"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"objectPanel-filter-01","desc-ko":"Filter Objects","name-en":"objectPanel-filter-01","desc-en":"Filter Objects"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"objectPanel-filter-02","desc-ko":"Filter Objects","name-en":"objectPanel-filter-02","desc-en":"Filter Objects"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"objectPanel-filter-03","desc-ko":"Filter Objects","name-en":"objectPanel-filter-03","desc-en":"Filter Objects"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"objectPanel-recycleBin-01","desc-ko":"how to restore object from the Recycle Bin.","name-en":"objectPanel-recycleBin-01","desc-en":"how to restore object from the Recycle Bin."}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"objectPanel-recycleBin-02","desc-ko":"how to restore object from the Recycle Bin.","name-en":"objectPanel-recycleBin-02","desc-en":"how to restore object from the Recycle Bin."}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"objectPanel-recycleBin-03","desc-ko":"how to restore object from the Recycle Bin.","name-en":"objectPanel-recycleBin-03","desc-en":"how to restore object from the Recycle Bin."}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"objectPanel-recycleBin-04","desc-ko":"how to restore object from the Recycle Bin.","name-en":"objectPanel-recycleBin-04","desc-en":"how to restore object from the Recycle Bin."}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-add","desc-ko":"add/new, icon","name-en":"icon-object-add","desc-en":"add/new, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-analyze","desc-ko":"analyze, icon","name-en":"icon-object-analyze","desc-en":"analyze, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-compileRebuild","desc-ko":"compile/rebuild, icon","name-en":"icon-object-compileRebuild","desc-en":"compile/rebuild, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-debug","desc-ko":"debug, icon","name-en":"icon-object-debug","desc-en":"debug, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-delete","desc-ko":"delete, icon","name-en":"icon-object-delete","desc-en":"delete, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-descriptionPane","desc-ko":"description pane, icon","name-en":"icon-object-descriptionPane","desc-en":"description pane, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-disable","desc-ko":"disable, icon","name-en":"icon-object-disable","desc-en":"disable, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-editComment","desc-ko":"edit comment, icon","name-en":"icon-object-editComment","desc-en":"edit comment, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-empty","desc-ko":"empty, icon","name-en":"icon-object-empty","desc-en":"empty, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-enable","desc-ko":"enable, icon","name-en":"icon-object-enable","desc-en":"enable, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-execute","desc-ko":"execute, icon","name-en":"icon-object-execute","desc-en":"execute, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-exportData","desc-ko":"export data, icon","name-en":"icon-object-exportData","desc-en":"export data, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-filter","desc-ko":"filter, icon","name-en":"icon-object-filter","desc-en":"filter, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-importData","desc-ko":"import data, icon","name-en":"icon-object-importData","desc-en":"import data, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-modify","desc-ko":"new synonym, icon","name-en":"icon-object-modify","desc-en":"new synonym, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-newSynonym","desc-ko":"refresh, icon","name-en":"icon-object-newSynonym","desc-en":"refresh, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-refresh","desc-ko":"refresh, icon","name-en":"icon-object-refresh","desc-en":"refresh, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-restore","desc-ko":"restore, icon","name-en":"icon-object-restore","desc-en":"restore, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-sqlEditor","desc-ko":"sql editor, icon","name-en":"icon-object-sqlEditor","desc-en":"sql editor, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-test","desc-ko":"test, icon","name-en":"icon-object-test","desc-en":"test, icon"}
+,
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-viewEditPrivilege","desc-ko":"view/edit privilege, icon","name-en":"icon-object-viewEditPrivilege","desc-en":"view/edit privilege, icon"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-collectionType-sqlView","desc-ko":"create Collection Type","name-en":"create-collectionType-sqlView","desc-en":"create Collection Type"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-collectionType","desc-ko":"create Constraints","name-en":"create-collectionType","desc-en":"create Constraints"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-constraint","desc-ko":"create Constraints","name-en":"create-constraint","desc-en":"create Constraints"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-databaseLink-sqlView","desc-ko":"create Database Link","name-en":"create-databaseLink-sqlView","desc-en":"create Database Link"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-databaseLink","desc-ko":"create Database Link","name-en":"create-databaseLink","desc-en":"create Database Link"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-index-sqlView","desc-ko":"create index sql view","name-en":"create-index-sqlView","desc-en":"create index sql view"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-index","desc-ko":"create index","name-en":"create-index","desc-en":"create index"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-job","desc-ko":"create job","name-en":"create-job","desc-en":"create job"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-objectType","desc-ko":"create object type","name-en":"create-objectType","desc-en":"create object type"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-PLSQLObject","desc-ko":"create Procedure/Function/Package","name-en":"create-PLSQLObject","desc-en":"create Procedure/Function/Package"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-profile-01","desc-ko":"create profile","name-en":"create-profile-01","desc-en":"create profile"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-profile-02","desc-ko":"create profile","name-en":"create-profile-02","desc-en":"create profile"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-redoLogGroup","desc-ko":"create Redo Log Group","name-en":"create-redoLogGroup","desc-en":"create Redo Log Group"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-role","desc-ko":"create role","name-en":"create-role","desc-en":"create role"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-rollbackSegment","desc-ko":"create Rollback Segment","name-en":"create-rollbackSegment","desc-en":"create Rollback Segment"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-sequence","desc-ko":"create sequence","name-en":"create-sequence","desc-en":"create sequence"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-synonym","desc-ko":"create synonym","name-en":"create-synonym","desc-en":"create synonym"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-table","desc-ko":"create table","name-en":"create-table","desc-en":"create table"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-tableSpace-01","desc-ko":"create tableSpace","name-en":"create-tableSpace-01","desc-en":"create tableSpace"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-tableSpace","desc-ko":"create tableSpace","name-en":"create-tableSpace","desc-en":"create tableSpace"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-trigger","desc-ko":"create trigger","name-en":"create-trigger","desc-en":"create trigger"}
+,
+{"category":"만들기","folder":"create","name-ko":"create-view","desc-ko":"create view","name-en":"create-view","desc-en":"create view"}
+,
+{"category":"보고서","folder":"report","name-ko":"report-design","desc-ko":"보고서 디자인","name-en":"report-design","desc-en":"Design Object Reports"}
+,
+{"category":"보고서","folder":"report","name-ko":"report-exportExcel","desc-ko":"보고서 엑셀 내보내기","name-en":"report-exportExcel","desc-en":"Export Object Reports to Excel"}
+,
+{"category":"보고서","folder":"report","name-ko":"report-exportScript-exportFile","desc-ko":"SQL스크립트 파일로 내보내기","name-en":"report-exportScript-exportFile","desc-en":"Export Table Script"}
+,
+{"category":"보고서","folder":"report","name-ko":"report-exportScript-menu","desc-ko":"SQL스크립트 보고서","name-en":"report-exportScript-menu","desc-en":"Export Table Script"}
+,
+{"category":"보고서","folder":"report","name-ko":"report-exportScript","desc-ko":"SQL스크립트 보고서","name-en":"report-exportScript","desc-en":"Export Table Script"}
+,
+{"category":"보고서","folder":"report","name-ko":"report-menu","desc-ko":"보고서 메뉴","name-en":"report-menu","desc-en":"Design Object Reports"}
+,
+{"category":"보고서","folder":"report","name-ko":"report-preview","desc-ko":"보고서 미리보기","name-en":"report-preview","desc-en":"Object Reports Preview"}
+,
+{"category":"보고서","folder":"report","name-ko":"report-selectSchema","desc-ko":"보고서 스키마 선택","name-en":"report-selectSchema","desc-en":"Select schema and object."}
+,
+{"category":"매니저","folder":"manager","name-ko":"manager-securityManager-grantSystemPrivileges-role","desc-ko":"Grant System Privileges to Users Role","name-en":"manager-securityManager-grantSystemPrivileges-role","desc-en":"Grant System Privileges to Users Role"}
+,
+{"category":"매니저","folder":"manager","name-ko":"manager-securityManager-grantSystemPrivileges-user","desc-ko":"Grant System Privileges to Users","name-en":"manager-securityManager-grantSystemPrivileges-user","desc-en":"Grant System Privileges to Users"}
+,
+{"category":"매니저","folder":"manager","name-ko":"manager-securityManager-grantSystemPrivileges","desc-ko":"Grant System Privileges to Users","name-en":"manager-securityManager-grantSystemPrivileges","desc-en":"Grant System Privileges to Users"}
+,
+{"category":"매니저","folder":"manager","name-ko":"manager-securityManager-newUser","desc-ko":"Define Roles for New User","name-en":"manager-securityManager-newUser","desc-en":"Define Roles for New User"}
+,
+{"category":"매니저","folder":"manager","name-ko":"manager-securityManager-objectPrivilege","desc-ko":"Define Roles for New User Object Privilege","name-en":"manager-securityManager-objectPrivilege","desc-en":"Define Roles for New User Object Privilege"}
+,
+{"category":"매니저","folder":"manager","name-ko":"manager-securityManager-role","desc-ko":"Define Roles for New User Role","name-en":"manager-securityManager-role","desc-en":"Define Roles for New User Role"}
+,
+{"category":"매니저","folder":"manager","name-ko":"manager-securityManager-systemPrivileges","desc-ko":"Grant/Revoke New User System Privileges","name-en":"manager-securityManager-systemPrivileges","desc-en":"Grant/Revoke New User System Privileges"}
+,
+{"category":"매니저","folder":"manager","name-ko":"manager-securityManager-tableSpaceQuota","desc-ko":"Grant a tablespace quota.","name-en":"manager-securityManager-tableSpaceQuota","desc-en":"Grant a tablespace quota."}
+,
+{"category":"매니저","folder":"manager","name-ko":"manager-securityManager","desc-ko":"Register a New User and Grant Privileges","name-en":"manager-securityManager","desc-en":"Register a New User and Grant Privileges"}
+,
+{"category":"매니저","folder":"manager","name-ko":"manager-sessionBrowser-kill","desc-ko":"View Session Info with Session Browser Kill","name-en":"manager-sessionBrowser-kill","desc-en":"View Session Info with Session Browser Kill"}
+,
+{"category":"매니저","folder":"manager","name-ko":"manager-sessionBrowser-trace","desc-ko":"View Session Info with Session Browser Trace","name-en":"manager-sessionBrowser-trace","desc-en":"View Session Info with Session Browser Trace"}
+,
+{"category":"매니저","folder":"manager","name-ko":"manager-sessionBrowser","desc-ko":"View Session Info with Session Browser","name-en":"manager-sessionBrowser","desc-en":"View Session Info with Session Browser"}
+,
+{"category":"매니저","folder":"manager","name-ko":"manager-tableSpaceManager-alterTableSpace-addDataFile","desc-ko":"Expand Tablespace Using Tablespace Manager Add Data File","name-en":"manager-tableSpaceManager-alterTableSpace-addDataFile","desc-en":"Expand Tablespace Using Tablespace Manager Add Data File"}
+,
+{"category":"매니저","folder":"manager","name-ko":"manager-tableSpaceManager-alterTableSpace","desc-ko":"Expand Tablespace Using Tablespace Manager Alter Tablespace","name-en":"manager-tableSpaceManager-alterTableSpace","desc-en":"Expand Tablespace Using Tablespace Manager Alter Tablespace"}
+,
+{"category":"매니저","folder":"manager","name-ko":"manager-tableSpaceManager","desc-ko":"Expand Tablespace Using Tablespace Manager","name-en":"manager-tableSpaceManager","desc-en":"Expand Tablespace Using Tablespace Manager"}
+,
+{"category":"옵션","folder":"option","name-ko":"option-convertSQL","desc-ko":"option convertSQL","name-en":"option-convertSQL","desc-en":"option convertSQL"}
+,
+{"category":"옵션","folder":"option","name-ko":"option-general","desc-ko":"option general","name-en":"option-general","desc-en":"option general"}
+,
+{"category":"옵션","folder":"option","name-ko":"option-grid","desc-ko":"option grid","name-en":"option-grid","desc-en":"option grid"}
+,
+{"category":"옵션","folder":"option","name-ko":"option-objectExplorer","desc-ko":"option objectExplorer","name-en":"option-objectExplorer","desc-en":"option objectExplorer"}
+,
+{"category":"옵션","folder":"option","name-ko":"option-oracleConfiguration","desc-ko":"option oracleConfiguration","name-en":"option-oracleConfiguration","desc-en":"option oracleConfiguration"}
+,
+{"category":"옵션","folder":"option","name-ko":"option-oracleUtilityPath","desc-ko":"option oracleUtilityPath","name-en":"option-oracleUtilityPath","desc-en":"option oracleUtilityPath"}
+,
+{"category":"옵션","folder":"option","name-ko":"option-queryShortcuts","desc-ko":"option queryShortcuts","name-en":"option-queryShortcuts","desc-en":"option queryShortcuts"}
+,
+{"category":"옵션","folder":"option","name-ko":"option-SQLEditor-autoComplete","desc-ko":"option SQLEditor autoComplete","name-en":"option-SQLEditor-autoComplete","desc-en":"option SQLEditor autoComplete"}
+,
+{"category":"옵션","folder":"option","name-ko":"option-SQLEditor-codeTemplate","desc-ko":"option SQLEditor codeTemplate","name-en":"option-SQLEditor-codeTemplate","desc-en":"option SQLEditor codeTemplate"}
+,
+{"category":"옵션","folder":"option","name-ko":"option-SQLEditor-font","desc-ko":"option SQLEditor font","name-en":"option-SQLEditor-font","desc-en":"option SQLEditor font"}
+,
+{"category":"옵션","folder":"option","name-ko":"option-SQLEditor-general","desc-ko":"option SQLEditor general","name-en":"option-SQLEditor-general","desc-en":"option SQLEditor general"}
+,
+{"category":"옵션","folder":"option","name-ko":"option-SQLEditor-highlight","desc-ko":"option SQLEditor highlight","name-en":"option-SQLEditor-highlight","desc-en":"option SQLEditor highlight"}
+,
+{"category":"옵션","folder":"option","name-ko":"option-SQLEditor-keywordTemplate","desc-ko":"option SQLEditor keywordTemplate","name-en":"option-SQLEditor-keywordTemplate","desc-en":"option SQLEditor keywordTemplate"}
+,
+{"category":"옵션","folder":"option","name-ko":"option-SQLEditor","desc-ko":"option SQLEditor","name-en":"option-SQLEditor","desc-en":"option SQLEditor"}
+,
+{"category":"옵션","folder":"option","name-ko":"option-subscription","desc-ko":"option subscription","name-en":"option-subscription","desc-en":"option subscription"}
+
 ]

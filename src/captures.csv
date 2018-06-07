@@ -142,6 +142,7 @@ SQL편집기세부기능,SQLEditorAdvanced,view-table-schema-right-away-ko,테�
 실행계획,executionPlan,icon-sql-editor-sessionStatistic,세션 통계,icon-sql-editor-sessionStatistic,Session statistic
 실행계획,executionPlan,icon-sql-editor-setBackgroundColor,배경 색 변경,icon-sql-editor-setBackgroundColor,Set Background Color
 실행계획,executionPlan,icon-sql-editor-showBlankTabReturn,탭 공백 리턴 문자보기,icon-sql-editor-showBlankTabReturn,"Show blank, tab, Return"
+실행계획,executionPlan,icon-sql-editor-showGrid,Toggle/Collapse grid.,icon-sql-editor-showGrid,Toggle/Collapse grid.
 실행계획,executionPlan,icon-sql-editor-SQLAlignment,SQL맞춤,icon-sql-editor-SQLAlignment,SQL Alignment
 실행계획,executionPlan,icon-sql-editor-SQLAlignmentOptions,SQL맞춤 옵션,icon-sql-editor-SQLAlignmentOptions,SQL Alignment Options
 실행계획,executionPlan,icon-sql-editor-SQLConvert,SQL문장을 코드로 변환하기,icon-sql-editor-SQLConvert,SQL Convert
