@@ -445,9 +445,9 @@
 ,
 {"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-importData","desc-ko":"import data, icon","name-en":"icon-object-importData","desc-en":"import data, icon"}
 ,
-{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-modify","desc-ko":"new synonym, icon","name-en":"icon-object-modify","desc-en":"new synonym, icon"}
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-modify","desc-ko":"modify, icon","name-en":"icon-object-modify","desc-en":"modify, icon"}
 ,
-{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-newSynonym","desc-ko":"refresh, icon","name-en":"icon-object-newSynonym","desc-en":"refresh, icon"}
+{"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-newSynonym","desc-ko":"new synonym, icon","name-en":"icon-object-newSynonym","desc-en":"new synonym, icon"}
 ,
 {"category":"개체탐색기","folder":"objectExplorer","name-ko":"icon-object-refresh","desc-ko":"refresh, icon","name-en":"icon-object-refresh","desc-en":"refresh, icon"}
 ,
@@ -578,5 +578,45 @@
 {"category":"옵션","folder":"option","name-ko":"option-SQLEditor","desc-ko":"option SQLEditor","name-en":"option-SQLEditor","desc-en":"option SQLEditor"}
 ,
 {"category":"옵션","folder":"option","name-ko":"option-subscription","desc-ko":"option subscription","name-en":"option-subscription","desc-en":"option subscription"}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"erDesign-viewTable","desc-ko":"ER Design View Table Objects","name-en":"erDesign-viewTable","desc-en":"ER Design View Table Objects"}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"erDesign-findTableOnCanvas","desc-ko":"ER Design Find Table Objects On Canvas","name-en":"erDesign-findTableOnCanvas","desc-en":"ER Design Find Table Objects On Canvas"}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"erDesign-findTableOnCanvas-01","desc-ko":"ER Design Find Table Objects On Canvas","name-en":"erDesign-findTableOnCanvas-01","desc-en":"ER Design Find Table Objects On Canvas"}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"erDesign-viewRelationship","desc-ko":"ER Design View Relationship Between Tables","name-en":"erDesign-viewRelationship","desc-en":"ER Design View Relationship Between Tables"}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"erDesign-alterRelationship","desc-ko":"ER Design Alter Relationships Between Table Objects","name-en":"erDesign-alterRelationship","desc-en":"ER Design Alter Relationships Between Table Objects"}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"erDesign-changeOptionsForTableDisplay","desc-ko":"ER Design Change Options for Table Display","name-en":"erDesign-changeOptionsForTableDisplay","desc-en":"ER Design Change Options for Table Display"}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"icon-erDesign-select","desc-ko":"Select object with left mouse button drag.","name-en":"icon-erDesign-select","desc-en":"Select object with left mouse button drag."}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"icon-erDesign-move","desc-ko":"Move selected objects.","name-en":"icon-erDesign-move","desc-en":"Move selected objects."}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"icon-erDesign-resize","desc-ko":"Resize the selected group.","name-en":"icon-erDesign-resize","desc-en":"Resize the selected group."}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"icon-erDesign-delete","desc-ko":"Delete the selected object.","name-en":"icon-erDesign-delete","desc-en":"Delete the selected object."}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"icon-erDesign-panningHand","desc-ko":"Left-click on workspace and move.","name-en":"icon-erDesign-panningHand","desc-en":"Left-click on workspace and move."}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"icon-erDesign-zoomOut","desc-ko":"View workspace smaller.","name-en":"icon-erDesign-zoomOut","desc-en":"View workspace smaller."}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"icon-erDesign-zoomIn","desc-ko":"Zoom in to workspace.","name-en":"icon-erDesign-zoomIn","desc-en":"Zoom in to workspace."}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"icon-erDesign-region","desc-ko":"Groups related objects together.","name-en":"icon-erDesign-region","desc-en":"Groups related objects together."}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"icon-erDesign-textBox","desc-ko":"Add text or comment on canvas.","name-en":"icon-erDesign-textBox","desc-en":"Add text or comment on canvas."}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"icon-erDesign-11Relationship","desc-ko":"Set 1:1 non-identifying relationships between objects in a table.","name-en":"icon-erDesign-11Relationship","desc-en":"Set 1:1 non-identifying relationships between objects in a table."}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"icon-erDesign-1nRelationShip","desc-ko":"Set 1:n non-identifying relationships between objects in a table.","name-en":"icon-erDesign-1nRelationShip","desc-en":"Set 1:n non-identifying relationships between objects in a table."}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"icon-erDesign-nmRelationship","desc-ko":"Set n:m non-identifying relationships between objects in a table.","name-en":"icon-erDesign-nmRelationship","desc-en":"Set n:m non-identifying relationships between objects in a table."}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"icon-erDesign-viewSQL","desc-ko":"View current ER Design script.","name-en":"icon-erDesign-viewSQL","desc-en":"View current ER Design script."}
+,
+{"category":"ER디자인","folder":"erDesign","name-ko":"icon-erDesign-refresh","desc-ko":"Refresh canvas.","name-en":"icon-erDesign-refresh","desc-en":"Refresh canvas."}
 
 ]
